@@ -35,9 +35,9 @@ var lyr_JARDIMMORI_1 = new ol.layer.Vector({
 
 lyr_GoogleTerrain_0.setVisible(true);lyr_JARDIMMORI_1.setVisible(true);
 var layersList = [lyr_GoogleTerrain_0,lyr_JARDIMMORI_1];
-lyr_JARDIMMORI_1.set('fieldAliases', {'QUADRA': 'QUADRA', 'LOTE': 'LOTE', 'QDLT': 'QDLT', 'STATUS': 'STATUS', });
-lyr_JARDIMMORI_1.set('fieldImages', {'QUADRA': 'Range', 'LOTE': 'Range', 'QDLT': 'TextEdit', 'STATUS': 'TextEdit', });
-lyr_JARDIMMORI_1.set('fieldLabels', {'QUADRA': 'header label - always visible', 'LOTE': 'header label - always visible', 'QDLT': 'hidden field', 'STATUS': 'hidden field', });
+lyr_JARDIMMORI_1.set('fieldAliases', {'QUADRA': 'QUADRA', 'LOTE': 'LOTE', 'QDLT': 'QDLT', 'STATUS': 'STATUS', 'SITUACAO': 'SITUACAO', });
+lyr_JARDIMMORI_1.set('fieldImages', {'QUADRA': 'Range', 'LOTE': 'Range', 'QDLT': 'TextEdit', 'STATUS': 'TextEdit', 'SITUACAO': '', });
+lyr_JARDIMMORI_1.set('fieldLabels', {'QUADRA': 'header label - always visible', 'LOTE': 'header label - always visible', 'QDLT': 'hidden field', 'STATUS': 'hidden field', 'SITUACAO': 'header label - always visible', });
 lyr_JARDIMMORI_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
