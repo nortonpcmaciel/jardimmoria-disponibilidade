@@ -1,6 +1,6 @@
 {
   "dataset": "65ec05ebde6a052c85b76322b1b577b2ee9558474d0edc17d8d6a2dc8e6395e0",
-  "revision": 1,
+  "revision": 2,
   "updatedDate": "09/09/2026",
   "options": {
     "VENDIDO": "V",
@@ -1775,8 +1775,8 @@
       "QUADRA": 7,
       "LOTE": 4,
       "QDLT": "07-04",
-      "STATUS": "D",
-      "SITUACAO": "DISPONÍVEL",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
       "id": "221"
     },
     {
