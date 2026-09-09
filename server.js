@@ -62,7 +62,7 @@ function createServer({ token, statePath = path.join(ROOT, 'private/situacoes.js
       }
       if (!['GET', 'HEAD'].includes(req.method)) return reply(res, 405, { error: 'Método não permitido.' });
       const pathname = decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname);
-      if (!/^\/(index.html|index2.html|atualizar.html|data\/situacoes.json|(?:resources|layers|styles|images|webfonts)\/[\w./ -]+)$/.test(pathname) || pathname.split('/').includes('..'))
+      if (!/^\/(index.html|index2.html|atualizar.html|dashboard.html|data\/situacoes.json|(?:resources|layers|styles|images|webfonts)\/[\w./ -]+)$/.test(pathname) || pathname.split('/').includes('..'))
         return reply(res, 404, { error: 'Página não encontrada.' });
       const file = path.join(ROOT, pathname);
       if (!fs.existsSync(file) || !fs.statSync(file).isFile()) return reply(res, 404, { error: 'Arquivo não encontrado.' });

@@ -14,7 +14,7 @@
     $('objetos').replaceChildren();
     for (const item of items) {
       const row = document.createElement('tr');
-      for (const value of [item.id, item.QUADRA, item.LOTE, item.QDLT, item.SITUACAO]) {
+      for (const value of [item.id, item.QUADRA, item.LOTE, item.QDLT, item.SITUACAO, item.updatedAt ? new Date(item.updatedAt).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'Sem registro individual']) {
         const cell = document.createElement('td'); cell.textContent = value; row.appendChild(cell);
       }
       const cell = document.createElement('td'), select = document.createElement('select');

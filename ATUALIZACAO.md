@@ -26,6 +26,16 @@ Os 848 objetos têm identificadores individuais correspondentes à ordem da cama
 
 ## Histórico e manutenção
 
+### Dashboard comercial
+
+Abra `dashboard.html` pelos links no mapa ou na página de atualização. A página mostra o estoque atual por situação e quadra, percentual comercializado, vendas e cancelamentos por mês, saldo, histórico com busca e exportação CSV das movimentações filtradas. Os filtros de mês afetam somente o histórico. A leitura pública é renovada a cada 30 segundos enquanto a aba está visível.
+
+Cada alteração efetiva feita pela nova versão de `atualizar.html` grava no mesmo arquivo público um evento em `history`, com objeto, código, quadra, lote, situação anterior, situação nova, instante ISO e revisão. O objeto recebe `updatedAt`; `historyStartedAt` registra o início da cobertura. O salvamento mantém eventos anteriores e usa a mesma proteção contra conflitos da situação atual. Preserve esses campos em futuras publicações e utilize a versão atualizada da página de edição.
+
+Entrada em VENDIDO ou QUITADO a partir de uma situação não comercializada conta como venda. VENDIDO/QUITADO para DISPONÍVEL conta como cancelamento. A passagem entre VENDIDO e QUITADO não conta novamente. As demais alterações permanecem no histórico. Datas são agrupadas no fuso America/Sao_Paulo. A comparação com o mês anterior mostra a diferença absoluta de vendas apenas entre meses completos com cobertura, dentro do período selecionado.
+
+O arquivo inicial não contém datas individuais de vendas e cancelamentos. Portanto, não há reconstrução retroativa a partir da data geral de atualização. O histórico começa na primeira alteração salva com esta versão; meses anteriores aparecem como sem dados e o mês inicial é parcial. Os totais atuais continuam disponíveis desde a primeira leitura. A informação é quantitativa: não há preços ou valores financeiros na fonte.
+
 O GitHub mantém o histórico de alterações de `data/situacoes.json`. A pasta `private/` pertence ao serviço Node.js anterior e não é utilizada no Pages. Os arquivos `server.js` e seu teste continuam no projeto apenas como referência; a administração atual usa a API GitHub.
 
 O arquivo de dados é público, como o mapa. As credenciais nunca devem fazer parte dele. Para desenvolvimento, execute os testes com `node --test tests/*.test.js`; eles não acessam nem modificam o repositório online.

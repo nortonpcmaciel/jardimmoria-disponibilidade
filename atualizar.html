@@ -5,10 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atualizar situação — Jardim Moriá</title>
   <link rel="stylesheet" href="resources/atualizar.css">
+  <link rel="stylesheet" href="resources/dashboard-nav.css">
 </head>
 <body>
+  <header class="topbar">
+    <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Dados</span></div>
+    <details class="page-menu">
+      <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
+      <nav aria-label="Páginas"><a href="index.html">Mapa</a><a href="dashboard.html">Dashboard</a></nav>
+    </details>
+  </header>
   <main>
-    <header><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><a href="index.html" target="_blank" rel="noopener">Abrir mapa ↗</a></header>
     <h1>Atualizar situação dos objetos</h1>
     <p>Localize o objeto, selecione a nova situação e clique em Salvar. A alteração será publicada para todos os visitantes do mapa.</p>
     <label>Token de edição do GitHub <input id="senha" type="password" autocomplete="off" placeholder="Token com acesso a este repositório"></label>
@@ -21,7 +28,8 @@
     </div>
     <p id="mensagem" role="status" aria-live="polite">Carregando dados…</p>
     <p id="resumo"></p>
-    <div class="table-wrap"><table><thead><tr><th>Objeto</th><th>Quadra</th><th>Lote</th><th>Código</th><th>Situação atual</th><th>Nova situação</th><th>Ação</th></tr></thead><tbody id="objetos"></tbody></table></div>
+    <p>Cada alteração salva registra data e situação anterior no histórico do dashboard. Vendido ou quitado → disponível conta como cancelamento; a entrada em vendido ou quitado conta como venda, sem contar a quitação de uma venda novamente.</p>
+    <div class="table-wrap"><table><thead><tr><th>Objeto</th><th>Quadra</th><th>Lote</th><th>Código</th><th>Situação atual</th><th>Última alteração</th><th>Nova situação</th><th>Ação</th></tr></thead><tbody id="objetos"></tbody></table></div>
   </main>
   <script src="resources/github-config.js"></script>
   <script src="resources/github-store.js"></script>

@@ -3,6 +3,7 @@
 Mapa qgis2web com administração dos 848 objetos, adaptado para GitHub Pages.
 
 - Site: https://nortonpcmaciel.github.io/jardimmoria-disponibilidade/
+- Dashboard: https://nortonpcmaciel.github.io/jardimmoria-disponibilidade/dashboard.html
 - Administração: https://nortonpcmaciel.github.io/jardimmoria-disponibilidade/atualizar.html
 
 ## Como atualizar

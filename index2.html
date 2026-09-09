@@ -11,6 +11,7 @@
         <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
         <link rel="stylesheet" href="./resources/qgis2web.css">
+        <link rel="stylesheet" href="resources/dashboard-nav.css">
         <style>
         html, body {
             background-color: #ffffff;
@@ -42,10 +43,26 @@
             padding: 0;
             margin: 0;
         }
+        body.standalone-map #map {
+            height: calc(100% - 80px);
+        }
         </style>
         <title></title>
     </head>
     <body>
+        <header class="topbar" id="standalone-nav" hidden>
+            <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Mapa</span></div>
+            <details class="page-menu">
+                <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
+                <nav aria-label="Páginas"><a href="dashboard.html">Dashboard</a><a href="atualizar.html">Dados</a></nav>
+            </details>
+        </header>
+        <script>
+        if (window.top === window.self) {
+            document.body.classList.add('standalone-map');
+            document.getElementById('standalone-nav').hidden = false;
+        }
+        </script>
         <div id="map">
             <div id="popup" class="ol-popup">
                 <a href="#" id="popup-closer" class="ol-popup-closer"></a>

@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jardim Moriá — Quadro de disponibilidade</title>
 <style>
+body {
+    margin: 0;
+    background: #f4f5f8;
+}
 .janela {
     width: min(1000px, 100%);
     margin: 30px auto;
@@ -55,17 +59,19 @@ iframe {
     background: #ac2b38;
 }
 </style>
+<link rel="stylesheet" href="resources/dashboard-nav.css">
 </head>
 <body>
 
-<div class="janela">
+<header class="topbar">
+    <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Mapa</span></div>
+    <details class="page-menu">
+        <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
+        <nav aria-label="Páginas"><a href="dashboard.html">Dashboard</a><a href="atualizar.html">Dados</a></nav>
+    </details>
+</header>
 
-    <div class="barra-titulo">
-        <img src="images/logo_jardimmoria.png"
-             alt="Logo"
-             class="logo-cabecalho">
-          QUADRO DE DISPONIBILIDADE
-    </div>
+<div class="janela">
 
     <iframe src="index2.html" title="Mapa interativo Jardim Moriá"></iframe>
 

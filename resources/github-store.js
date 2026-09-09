@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  function createStore(config, fetcher) {
+  function createStore(config, fetcher, now = () => new Date()) {
     const endpoint = 'https://api.github.com/repos/' + encodeURIComponent(config.owner) + '/' +
       encodeURIComponent(config.repo) + '/contents/' + config.path.split('/').map(encodeURIComponent).join('/');
     function validate(data) {
@@ -52,11 +52,18 @@
       if (!item || !Object.hasOwn(current.options, input.situacao)) throw new Error('Objeto ou situação inválidos.');
       if (item.SITUACAO === input.situacao) return current;
       const { fileSha, ...next } = current;
+      const timestamp = now().toISOString();
+      next.historyStartedAt = current.historyStartedAt || timestamp;
+      next.history = [...(current.history || []), {
+        revision: current.revision + 1, objectId: item.id, QDLT: item.QDLT,
+        QUADRA: item.QUADRA, LOTE: item.LOTE,
+        from: item.SITUACAO, to: input.situacao, at: timestamp
+      }];
       next.objects = current.objects.map(o => o.id === input.id ? {
-        ...o, SITUACAO: input.situacao, STATUS: current.options[input.situacao]
+        ...o, SITUACAO: input.situacao, STATUS: current.options[input.situacao], updatedAt: timestamp
       } : o);
       next.revision += 1;
-      next.updatedDate = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
+      next.updatedDate = new Date(timestamp).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
       const bytes = new TextEncoder().encode(JSON.stringify(next, null, 2) + '\n');
       let binary = '';
       bytes.forEach(byte => { binary += String.fromCharCode(byte); });

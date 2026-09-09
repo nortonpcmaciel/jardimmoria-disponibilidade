@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de vendas — Jardim Moriá</title>
+  <link rel="stylesheet" href="resources/dashboard.css">
+  <link rel="stylesheet" href="resources/dashboard-nav.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Dashboard</span></div>
+    <details class="page-menu">
+      <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
+      <nav aria-label="Páginas"><a href="index.html">Mapa</a><a href="atualizar.html">Dados</a></nav>
+    </details>
+  </header>
+  <main>
+    <div class="heading"><div><p class="eyebrow">JARDIM MORIÁ • VISÃO COMERCIAL</p><h1>Vendas & disponibilidade</h1><p>Acompanhe o estoque atual e a evolução das movimentações.</p></div><button id="refresh" type="button">↻ Atualizar dados</button></div>
+    <p id="message" role="status" aria-live="polite">Carregando dados publicados…</p>
+    <section class="filters" aria-label="Filtros do dashboard"><label>Quadra<select id="block"><option value="">Todas as quadras</option></select></label><label>Mês inicial<input id="start" type="month" min="2000-01" max="2099-12"></label><label>Mês final<input id="end" type="month" min="2000-01" max="2099-12"></label><button id="reset" class="secondary" type="button">Últimos 12 meses</button><span>Período aplicado ao histórico.<br>Estoque sempre na situação atual.</span></section>
+    <div id="content" hidden>
+      <section class="cards" aria-label="Indicadores atuais"><article class="card"><p>Objetos cadastrados</p><strong id="total">—</strong><small>Na quadra selecionada</small></article><article class="card available"><p>Disponíveis</p><strong id="available">—</strong><small>Prontos para comercialização</small></article><article class="card sold"><p>Comercializados</p><strong id="sold">—</strong><small>Vendidos + quitados</small></article><article class="card"><p>Comercialização</p><strong id="rate">—</strong><small>Sobre disponíveis + comercializados</small></article></section>
+      <div class="section-title"><h2>Movimentações no período</h2><span id="period"></span></div>
+      <p id="coverage" class="notice"></p>
+      <section class="flow" aria-label="Indicadores do período"><article><span>Vendas registradas</span><strong id="sales">—</strong></article><article><span>Cancelamentos</span><strong id="cancellations">—</strong></article><article><span>Saldo de vendas</span><strong id="net">—</strong><small>Vendas − cancelamentos</small></article></section>
+      <div class="grid"><section class="panel trend"><div class="panel-title"><div><h2>Vendas e cancelamentos</h2><p>Comparativo mensal • quantidade de movimentações</p></div><div class="legend"><span class="green">Vendas</span><span class="red">Cancelamentos</span></div></div><div id="chart" class="chart"></div><details><summary>Ver valores mensais e comparação</summary><div class="table-wrap"><table><thead><tr><th>Mês</th><th>Vendas</th><th>Cancelamentos</th><th>Saldo</th><th>Δ vendas / mês anterior</th></tr></thead><tbody id="monthly"></tbody></table></div></details></section><section class="panel"><h2>Distribuição atual</h2><p>Todas as situações da quadra selecionada</p><div id="distribution"></div></section></div>
+      <section class="panel"><div class="panel-title"><div><h2>Disponibilidade por quadra</h2><p>Posição atual dos objetos cadastrados</p></div></div><div class="table-wrap block-table"><table><thead><tr><th>Quadra</th><th>Total</th><th>Disponíveis</th><th>Vendidos</th><th>Quitados</th><th>Outras situações</th><th>Comercialização</th></tr></thead><tbody id="blocks"></tbody></table></div></section>
+      <section class="panel"><div class="panel-title"><div><h2>Histórico de alterações</h2><p>Data e hora de São Paulo • cada objeto preserva seu histórico</p></div><button id="export" class="secondary" type="button">↓ Exportar CSV</button></div><div class="event-filters"><label>Buscar objeto ou código<input id="search" type="search" placeholder="Ex.: 01-40"></label><label>Movimentação<select id="event-type"><option value="">Todas</option><option>Venda</option><option>Cancelamento</option><option>Outra alteração</option></select></label></div><div class="table-wrap"><table><thead><tr><th>Data e hora</th><th>Objeto</th><th>Quadra / lote</th><th>Código</th><th>Anterior</th><th>Atual</th><th>Movimentação</th></tr></thead><tbody id="events"></tbody></table></div><div class="pagination"><span id="event-count"></span><button id="prev" class="secondary" type="button">Anterior</button><button id="next" class="secondary" type="button">Próxima</button></div></section>
+      <p class="method">Critérios: entrada em vendido ou quitado registra uma venda. Vendido → quitado não gera nova venda. Vendido ou quitado → disponível registra cancelamento. Outras transições ficam no histórico. O saldo é o fluxo de vendas menos cancelamentos, não o estoque. Meses anteriores ao início do registro não têm dados; o primeiro mês tem cobertura parcial. Objetos com códigos repetidos são contados separadamente.</p>
+    </div>
+    <footer>Jardim Moriá <span>Inteligência comercial • dados do quadro de disponibilidade</span></footer>
+  </main>
+  <script src="resources/github-config.js"></script><script src="resources/github-store.js"></script><script src="resources/dashboard-model.js"></script><script src="resources/dashboard.js"></script>
+</body>
+</html>
