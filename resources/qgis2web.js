@@ -12,7 +12,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-5532413.534148, -844019.374925, -5531168.952936, -843174.748540], map.getSize());
+map.getView().fit([-5532378.657418, -844015.900764, -5531231.074987, -843171.567688], map.getSize());
 
 //change cursor
 function pointerOnFeature(evt) {
@@ -521,12 +521,6 @@ var bottomRightContainerDiv = document.getElementById('bottom-right-container')
 
 //layerswitcher
 
-var layerSwitcher = new ol.control.LayerSwitcher({
-    tipLabel: "Layers",
-    target: 'top-right-container'
-});
-map.addControl(layerSwitcher);
-    
 
 
 

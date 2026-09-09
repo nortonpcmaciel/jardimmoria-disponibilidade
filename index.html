@@ -1,6 +1,12 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jardim Moriá — Quadro de disponibilidade</title>
 <style>
 .janela {
-    width: 1000px;
+    width: min(1000px, 100%);
     margin: 30px auto;
     background: #ac2b38;
     border: 1px solid #999;
@@ -49,6 +55,8 @@ iframe {
     background: #ac2b38;
 }
 </style>
+</head>
+<body>
 
 <div class="janela">
 
@@ -59,10 +67,15 @@ iframe {
           QUADRO DE DISPONIBILIDADE
     </div>
 
-    <iframe src="index2.html"></iframe>
+    <iframe src="index2.html" title="Mapa interativo Jardim Moriá"></iframe>
 
-    <div class="barra-rodape">
-          ATUALIZADO EM 14/07/2026
+    <div class="barra-rodape" id="data-atualizacao" aria-live="polite">
+          ATUALIZADO EM 02/06/2026
     </div>
 
 </div>
+<script src="resources/github-config.js"></script>
+<script src="resources/github-store.js"></script>
+<script src="resources/situacoes-sync.js"></script>
+</body>
+</html>

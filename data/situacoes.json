@@ -1,0 +1,6799 @@
+{
+  "dataset": "65ec05ebde6a052c85b76322b1b577b2ee9558474d0edc17d8d6a2dc8e6395e0",
+  "revision": 0,
+  "updatedDate": "09/09/2026",
+  "options": {
+    "VENDIDO": "V",
+    "BLOQUEADO": "B",
+    "QUITADO": "Q",
+    "DISPONÍVEL": "D",
+    "CASAS POPULARES": "I",
+    "ÁREA VERDE": "G"
+  },
+  "objects": [
+    {
+      "QUADRA": 1,
+      "LOTE": 40,
+      "QDLT": "01-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "1"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 39,
+      "QDLT": "01-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "2"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 38,
+      "QDLT": "01-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "3"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 37,
+      "QDLT": "01-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "4"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 36,
+      "QDLT": "01-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "5"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 35,
+      "QDLT": "01-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "6"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 34,
+      "QDLT": "01-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "7"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 33,
+      "QDLT": "01-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "8"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 32,
+      "QDLT": "01-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "9"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 31,
+      "QDLT": "01-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "10"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 30,
+      "QDLT": "01-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "11"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 29,
+      "QDLT": "01-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "12"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 28,
+      "QDLT": "01-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "13"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 27,
+      "QDLT": "01-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "14"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 26,
+      "QDLT": "01-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "15"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 25,
+      "QDLT": "01-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "16"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 24,
+      "QDLT": "01-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "17"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 23,
+      "QDLT": "01-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "18"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 22,
+      "QDLT": "01-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "19"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 21,
+      "QDLT": "01-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "20"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 20,
+      "QDLT": "01-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "21"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 19,
+      "QDLT": "01-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "22"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 18,
+      "QDLT": "01-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "23"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 17,
+      "QDLT": "01-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "24"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 16,
+      "QDLT": "01-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "25"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 15,
+      "QDLT": "01-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "26"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 14,
+      "QDLT": "01-14",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "27"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 13,
+      "QDLT": "01-13",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "28"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 12,
+      "QDLT": "01-12",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "29"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 11,
+      "QDLT": "01-11",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "30"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 10,
+      "QDLT": "01-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "31"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 9,
+      "QDLT": "01-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "32"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 8,
+      "QDLT": "01-08",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "33"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 7,
+      "QDLT": "01-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "34"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 6,
+      "QDLT": "01-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "35"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 5,
+      "QDLT": "01-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "36"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 4,
+      "QDLT": "01-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "37"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 3,
+      "QDLT": "01-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "38"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 2,
+      "QDLT": "01-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "39"
+    },
+    {
+      "QUADRA": 1,
+      "LOTE": 1,
+      "QDLT": "01-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "40"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 15,
+      "QDLT": "02-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "41"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 14,
+      "QDLT": "02-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "42"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 13,
+      "QDLT": "02-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "43"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 12,
+      "QDLT": "02-12",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "44"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 11,
+      "QDLT": "02-11",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "45"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 10,
+      "QDLT": "02-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "46"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 9,
+      "QDLT": "02-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "47"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 8,
+      "QDLT": "02-08",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "48"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 7,
+      "QDLT": "02-07",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "49"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 6,
+      "QDLT": "02-06",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "50"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 5,
+      "QDLT": "02-05",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "51"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 4,
+      "QDLT": "02-04",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "52"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 3,
+      "QDLT": "02-03",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "53"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 2,
+      "QDLT": "02-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "54"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 1,
+      "QDLT": "02-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "55"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 19,
+      "QDLT": "02-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "56"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 18,
+      "QDLT": "02-18",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "57"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 17,
+      "QDLT": "02-17",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "58"
+    },
+    {
+      "QUADRA": 2,
+      "LOTE": 16,
+      "QDLT": "02-16",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "59"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 31,
+      "QDLT": "03-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "60"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 30,
+      "QDLT": "03-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "61"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 29,
+      "QDLT": "03-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "62"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 28,
+      "QDLT": "03-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "63"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 27,
+      "QDLT": "03-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "64"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 26,
+      "QDLT": "03-26",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "65"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 25,
+      "QDLT": "03-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "66"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 24,
+      "QDLT": "03-24",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "67"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 23,
+      "QDLT": "03-23",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "68"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 22,
+      "QDLT": "03-22",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "69"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 21,
+      "QDLT": "03-21",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "70"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 20,
+      "QDLT": "03-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "71"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 19,
+      "QDLT": "03-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "72"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 18,
+      "QDLT": "03-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "73"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 17,
+      "QDLT": "03-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "74"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 16,
+      "QDLT": "03-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "75"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 15,
+      "QDLT": "03-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "76"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 14,
+      "QDLT": "03-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "77"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 13,
+      "QDLT": "03-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "78"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 12,
+      "QDLT": "03-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "79"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 11,
+      "QDLT": "03-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "80"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 10,
+      "QDLT": "03-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "81"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 9,
+      "QDLT": "03-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "82"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 8,
+      "QDLT": "03-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "83"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 7,
+      "QDLT": "03-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "84"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 6,
+      "QDLT": "03-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "85"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 5,
+      "QDLT": "03-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "86"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 4,
+      "QDLT": "03-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "87"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 3,
+      "QDLT": "03-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "88"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 2,
+      "QDLT": "03-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "89"
+    },
+    {
+      "QUADRA": 3,
+      "LOTE": 1,
+      "QDLT": "03-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "90"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 8,
+      "QDLT": "04-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "91"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 7,
+      "QDLT": "04-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "92"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 6,
+      "QDLT": "04-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "93"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 5,
+      "QDLT": "04-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "94"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 4,
+      "QDLT": "04-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "95"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 3,
+      "QDLT": "04-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "96"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 2,
+      "QDLT": "04-02",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "97"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 1,
+      "QDLT": "04-01",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "98"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 20,
+      "QDLT": "04-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "99"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 19,
+      "QDLT": "04-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "100"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 18,
+      "QDLT": "04-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "101"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 17,
+      "QDLT": "04-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "102"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 16,
+      "QDLT": "04-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "103"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 15,
+      "QDLT": "04-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "104"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 14,
+      "QDLT": "04-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "105"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 13,
+      "QDLT": "04-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "106"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 12,
+      "QDLT": "04-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "107"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 11,
+      "QDLT": "04-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "108"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 10,
+      "QDLT": "04-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "109"
+    },
+    {
+      "QUADRA": 4,
+      "LOTE": 9,
+      "QDLT": "04-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "110"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 22,
+      "QDLT": "05-22",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "111"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 21,
+      "QDLT": "05-21",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "112"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 20,
+      "QDLT": "05-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "113"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 19,
+      "QDLT": "05-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "114"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 18,
+      "QDLT": "05-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "115"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 17,
+      "QDLT": "05-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "116"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 16,
+      "QDLT": "05-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "117"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 15,
+      "QDLT": "05-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "118"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 14,
+      "QDLT": "05-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "119"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 13,
+      "QDLT": "05-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "120"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 12,
+      "QDLT": "05-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "121"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 11,
+      "QDLT": "05-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "122"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 10,
+      "QDLT": "05-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "123"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 9,
+      "QDLT": "05-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "124"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 8,
+      "QDLT": "05-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "125"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 7,
+      "QDLT": "05-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "126"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 6,
+      "QDLT": "05-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "127"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 5,
+      "QDLT": "05-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "128"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 4,
+      "QDLT": "05-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "129"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 3,
+      "QDLT": "05-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "130"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 2,
+      "QDLT": "05-02",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "131"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 1,
+      "QDLT": "05-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "132"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 30,
+      "QDLT": "05-30",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "133"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 29,
+      "QDLT": "05-29",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "134"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 28,
+      "QDLT": "05-28",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "135"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 27,
+      "QDLT": "05-27",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "136"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 26,
+      "QDLT": "05-26",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "137"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 25,
+      "QDLT": "05-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "138"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 24,
+      "QDLT": "05-24",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "139"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 23,
+      "QDLT": "05-23",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "140"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 43,
+      "QDLT": "05-43",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "141"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 42,
+      "QDLT": "05-42",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "142"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 41,
+      "QDLT": "05-41",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "143"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 40,
+      "QDLT": "05-40",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "144"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 39,
+      "QDLT": "05-39",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "145"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 38,
+      "QDLT": "05-38",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "146"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 37,
+      "QDLT": "05-37",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "147"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 36,
+      "QDLT": "05-36",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "148"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 35,
+      "QDLT": "05-35",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "149"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 34,
+      "QDLT": "05-34",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "150"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 33,
+      "QDLT": "05-33",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "151"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 32,
+      "QDLT": "05-32",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "152"
+    },
+    {
+      "QUADRA": 5,
+      "LOTE": 31,
+      "QDLT": "05-31",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "153"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 25,
+      "QDLT": "06-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "154"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 24,
+      "QDLT": "06-24",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "155"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 23,
+      "QDLT": "06-23",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "156"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 22,
+      "QDLT": "06-22",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "157"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 21,
+      "QDLT": "06-21",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "158"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 20,
+      "QDLT": "06-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "159"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 19,
+      "QDLT": "06-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "160"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 18,
+      "QDLT": "06-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "161"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 17,
+      "QDLT": "06-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "162"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 16,
+      "QDLT": "06-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "163"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 15,
+      "QDLT": "06-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "164"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 14,
+      "QDLT": "06-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "165"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 13,
+      "QDLT": "06-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "166"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 12,
+      "QDLT": "06-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "167"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 11,
+      "QDLT": "06-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "168"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 10,
+      "QDLT": "06-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "169"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 9,
+      "QDLT": "06-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "170"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 8,
+      "QDLT": "06-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "171"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 7,
+      "QDLT": "06-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "172"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 6,
+      "QDLT": "06-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "173"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 5,
+      "QDLT": "06-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "174"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 4,
+      "QDLT": "06-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "175"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 3,
+      "QDLT": "06-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "176"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 2,
+      "QDLT": "06-02",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "177"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 1,
+      "QDLT": "06-01",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "178"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 56,
+      "QDLT": "06-56",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "179"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 55,
+      "QDLT": "06-55",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "180"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 54,
+      "QDLT": "06-54",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "181"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 53,
+      "QDLT": "06-53",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "182"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 52,
+      "QDLT": "06-52",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "183"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 51,
+      "QDLT": "06-51",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "184"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 50,
+      "QDLT": "06-50",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "185"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 49,
+      "QDLT": "06-49",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "186"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 48,
+      "QDLT": "06-48",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "187"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 47,
+      "QDLT": "06-47",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "188"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 46,
+      "QDLT": "06-46",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "189"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 45,
+      "QDLT": "06-45",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "190"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 44,
+      "QDLT": "06-44",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "191"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 43,
+      "QDLT": "06-43",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "192"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 42,
+      "QDLT": "06-42",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "193"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 41,
+      "QDLT": "06-41",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "194"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 40,
+      "QDLT": "06-40",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "195"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 39,
+      "QDLT": "06-39",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "196"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 38,
+      "QDLT": "06-38",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "197"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 37,
+      "QDLT": "06-37",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "198"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 36,
+      "QDLT": "06-36",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "199"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 35,
+      "QDLT": "06-35",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "200"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 34,
+      "QDLT": "06-34",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "201"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 33,
+      "QDLT": "06-33",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "202"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 32,
+      "QDLT": "06-32",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "203"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 31,
+      "QDLT": "06-31",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "204"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 30,
+      "QDLT": "06-30",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "205"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 29,
+      "QDLT": "06-29",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "206"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 28,
+      "QDLT": "06-28",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "207"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 27,
+      "QDLT": "06-27",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "208"
+    },
+    {
+      "QUADRA": 6,
+      "LOTE": 26,
+      "QDLT": "06-26",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "209"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 15,
+      "QDLT": "07-15",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "210"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 14,
+      "QDLT": "07-14",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "211"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 13,
+      "QDLT": "07-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "212"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 12,
+      "QDLT": "07-12",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "213"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 11,
+      "QDLT": "07-11",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "214"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 10,
+      "QDLT": "07-10",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "215"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 9,
+      "QDLT": "07-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "216"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 8,
+      "QDLT": "07-08",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "217"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 7,
+      "QDLT": "07-07",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "218"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 6,
+      "QDLT": "07-06",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "219"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 5,
+      "QDLT": "07-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "220"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 4,
+      "QDLT": "07-04",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "221"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 3,
+      "QDLT": "07-03",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "222"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 2,
+      "QDLT": "07-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "223"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 1,
+      "QDLT": "07-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "224"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 56,
+      "QDLT": "07-56",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "225"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 55,
+      "QDLT": "07-55",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "226"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 54,
+      "QDLT": "07-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "227"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 53,
+      "QDLT": "07-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "228"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 52,
+      "QDLT": "07-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "229"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 51,
+      "QDLT": "07-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "230"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 50,
+      "QDLT": "07-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "231"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 49,
+      "QDLT": "07-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "232"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 48,
+      "QDLT": "07-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "233"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 47,
+      "QDLT": "07-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "234"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 46,
+      "QDLT": "07-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "235"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 45,
+      "QDLT": "07-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "236"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 44,
+      "QDLT": "07-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "237"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 43,
+      "QDLT": "07-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "238"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 42,
+      "QDLT": "07-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "239"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 41,
+      "QDLT": "07-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "240"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 40,
+      "QDLT": "07-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "241"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 39,
+      "QDLT": "07-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "242"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 38,
+      "QDLT": "07-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "243"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 37,
+      "QDLT": "07-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "244"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 36,
+      "QDLT": "07-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "245"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 35,
+      "QDLT": "07-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "246"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 34,
+      "QDLT": "07-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "247"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 33,
+      "QDLT": "07-33",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "248"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 32,
+      "QDLT": "07-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "249"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 31,
+      "QDLT": "07-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "250"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 30,
+      "QDLT": "07-30",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "251"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 29,
+      "QDLT": "07-29",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "252"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 28,
+      "QDLT": "07-28",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "253"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 27,
+      "QDLT": "07-27",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "254"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 26,
+      "QDLT": "07-26",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "255"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 25,
+      "QDLT": "07-25",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "256"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 24,
+      "QDLT": "07-24",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "257"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 23,
+      "QDLT": "07-23",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "258"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 22,
+      "QDLT": "07-22",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "259"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 21,
+      "QDLT": "07-21",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "260"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 20,
+      "QDLT": "07-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "261"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 19,
+      "QDLT": "07-19",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "262"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 18,
+      "QDLT": "07-18",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "263"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 17,
+      "QDLT": "07-17",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "264"
+    },
+    {
+      "QUADRA": 7,
+      "LOTE": 16,
+      "QDLT": "07-16",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "265"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 18,
+      "QDLT": "08-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "266"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 17,
+      "QDLT": "08-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "267"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 16,
+      "QDLT": "08-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "268"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 15,
+      "QDLT": "08-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "269"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 14,
+      "QDLT": "08-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "270"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 13,
+      "QDLT": "08-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "271"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 12,
+      "QDLT": "08-12",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "272"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 11,
+      "QDLT": "08-11",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "273"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 10,
+      "QDLT": "08-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "274"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 9,
+      "QDLT": "08-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "275"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 8,
+      "QDLT": "08-08",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "276"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 7,
+      "QDLT": "08-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "277"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 6,
+      "QDLT": "08-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "278"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 5,
+      "QDLT": "08-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "279"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 4,
+      "QDLT": "08-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "280"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 3,
+      "QDLT": "08-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "281"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 2,
+      "QDLT": "08-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "282"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 1,
+      "QDLT": "08-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "283"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 58,
+      "QDLT": "08-58",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "284"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 57,
+      "QDLT": "08-57",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "285"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 56,
+      "QDLT": "08-56",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "286"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 55,
+      "QDLT": "08-55",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "287"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 54,
+      "QDLT": "08-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "288"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 53,
+      "QDLT": "08-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "289"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 52,
+      "QDLT": "08-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "290"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 51,
+      "QDLT": "08-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "291"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 50,
+      "QDLT": "08-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "292"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 49,
+      "QDLT": "08-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "293"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 48,
+      "QDLT": "08-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "294"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 47,
+      "QDLT": "08-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "295"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 46,
+      "QDLT": "08-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "296"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 45,
+      "QDLT": "08-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "297"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 44,
+      "QDLT": "08-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "298"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 43,
+      "QDLT": "08-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "299"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 42,
+      "QDLT": "08-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "300"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 41,
+      "QDLT": "08-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "301"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 40,
+      "QDLT": "08-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "302"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 39,
+      "QDLT": "08-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "303"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 38,
+      "QDLT": "08-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "304"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 37,
+      "QDLT": "08-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "305"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 36,
+      "QDLT": "08-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "306"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 35,
+      "QDLT": "08-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "307"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 34,
+      "QDLT": "08-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "308"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 33,
+      "QDLT": "08-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "309"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 32,
+      "QDLT": "08-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "310"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 31,
+      "QDLT": "08-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "311"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 30,
+      "QDLT": "08-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "312"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 29,
+      "QDLT": "08-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "313"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 28,
+      "QDLT": "08-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "314"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 27,
+      "QDLT": "08-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "315"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 26,
+      "QDLT": "08-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "316"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 25,
+      "QDLT": "08-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "317"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 24,
+      "QDLT": "08-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "318"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 23,
+      "QDLT": "08-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "319"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 22,
+      "QDLT": "08-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "320"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 21,
+      "QDLT": "08-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "321"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 20,
+      "QDLT": "08-20",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "322"
+    },
+    {
+      "QUADRA": 8,
+      "LOTE": 19,
+      "QDLT": "08-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "323"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 46,
+      "QDLT": "09-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "324"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 45,
+      "QDLT": "09-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "325"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 44,
+      "QDLT": "09-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "326"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 43,
+      "QDLT": "09-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "327"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 42,
+      "QDLT": "09-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "328"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 41,
+      "QDLT": "09-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "329"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 40,
+      "QDLT": "09-40",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "330"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 39,
+      "QDLT": "09-39",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "331"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 38,
+      "QDLT": "09-38",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "332"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 37,
+      "QDLT": "09-37",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "333"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 36,
+      "QDLT": "09-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "334"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 35,
+      "QDLT": "09-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "335"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 34,
+      "QDLT": "09-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "336"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 33,
+      "QDLT": "09-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "337"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 32,
+      "QDLT": "09-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "338"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 31,
+      "QDLT": "09-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "339"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 30,
+      "QDLT": "09-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "340"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 29,
+      "QDLT": "09-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "341"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 28,
+      "QDLT": "09-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "342"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 27,
+      "QDLT": "09-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "343"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 26,
+      "QDLT": "09-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "344"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 25,
+      "QDLT": "09-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "345"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 24,
+      "QDLT": "09-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "346"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 23,
+      "QDLT": "09-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "347"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 22,
+      "QDLT": "09-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "348"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 21,
+      "QDLT": "09-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "349"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 20,
+      "QDLT": "09-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "350"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 19,
+      "QDLT": "09-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "351"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 18,
+      "QDLT": "09-18",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "352"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 17,
+      "QDLT": "09-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "353"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 16,
+      "QDLT": "09-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "354"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 15,
+      "QDLT": "09-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "355"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 14,
+      "QDLT": "09-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "356"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 13,
+      "QDLT": "09-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "357"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 12,
+      "QDLT": "09-12",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "358"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 11,
+      "QDLT": "09-11",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "359"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 10,
+      "QDLT": "09-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "360"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 9,
+      "QDLT": "09-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "361"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 8,
+      "QDLT": "09-08",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "362"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 7,
+      "QDLT": "09-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "363"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 6,
+      "QDLT": "09-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "364"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 5,
+      "QDLT": "09-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "365"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 4,
+      "QDLT": "09-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "366"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 3,
+      "QDLT": "09-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "367"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 2,
+      "QDLT": "09-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "368"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 1,
+      "QDLT": "09-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "369"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 58,
+      "QDLT": "09-58",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "370"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 57,
+      "QDLT": "09-57",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "371"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 56,
+      "QDLT": "09-56",
+      "STATUS": "D",
+      "SITUACAO": "DISPONÍVEL",
+      "id": "372"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 55,
+      "QDLT": "09-55",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "373"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 54,
+      "QDLT": "09-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "374"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 53,
+      "QDLT": "09-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "375"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 52,
+      "QDLT": "09-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "376"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 51,
+      "QDLT": "09-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "377"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 50,
+      "QDLT": "09-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "378"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 49,
+      "QDLT": "09-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "379"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 48,
+      "QDLT": "09-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "380"
+    },
+    {
+      "QUADRA": 9,
+      "LOTE": 47,
+      "QDLT": "09-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "381"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 22,
+      "QDLT": "10-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "382"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 21,
+      "QDLT": "10-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "383"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 20,
+      "QDLT": "10-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "384"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 19,
+      "QDLT": "10-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "385"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 18,
+      "QDLT": "10-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "386"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 17,
+      "QDLT": "10-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "387"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 16,
+      "QDLT": "10-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "388"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 15,
+      "QDLT": "10-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "389"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 14,
+      "QDLT": "10-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "390"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 13,
+      "QDLT": "10-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "391"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 12,
+      "QDLT": "10-12",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "392"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 11,
+      "QDLT": "10-11",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "393"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 10,
+      "QDLT": "10-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "394"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 9,
+      "QDLT": "10-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "395"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 8,
+      "QDLT": "10-08",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "396"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 7,
+      "QDLT": "10-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "397"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 6,
+      "QDLT": "10-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "398"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 5,
+      "QDLT": "10-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "399"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 4,
+      "QDLT": "10-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "400"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 3,
+      "QDLT": "10-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "401"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 2,
+      "QDLT": "10-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "402"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 1,
+      "QDLT": "10-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "403"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 40,
+      "QDLT": "10-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "404"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 39,
+      "QDLT": "10-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "405"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 38,
+      "QDLT": "10-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "406"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 37,
+      "QDLT": "10-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "407"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 36,
+      "QDLT": "10-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "408"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 35,
+      "QDLT": "10-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "409"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 34,
+      "QDLT": "10-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "410"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 33,
+      "QDLT": "10-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "411"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 32,
+      "QDLT": "10-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "412"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 31,
+      "QDLT": "10-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "413"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 30,
+      "QDLT": "10-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "414"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 29,
+      "QDLT": "10-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "415"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 28,
+      "QDLT": "10-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "416"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 27,
+      "QDLT": "10-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "417"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 26,
+      "QDLT": "10-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "418"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 25,
+      "QDLT": "10-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "419"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 24,
+      "QDLT": "10-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "420"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 23,
+      "QDLT": "10-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "421"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 58,
+      "QDLT": "10-58",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "422"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 57,
+      "QDLT": "10-57",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "423"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 56,
+      "QDLT": "10-56",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "424"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 55,
+      "QDLT": "10-55",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "425"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 54,
+      "QDLT": "10-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "426"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 53,
+      "QDLT": "10-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "427"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 52,
+      "QDLT": "10-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "428"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 51,
+      "QDLT": "10-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "429"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 50,
+      "QDLT": "10-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "430"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 49,
+      "QDLT": "10-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "431"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 48,
+      "QDLT": "10-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "432"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 47,
+      "QDLT": "10-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "433"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 46,
+      "QDLT": "10-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "434"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 45,
+      "QDLT": "10-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "435"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 44,
+      "QDLT": "10-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "436"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 43,
+      "QDLT": "10-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "437"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 42,
+      "QDLT": "10-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "438"
+    },
+    {
+      "QUADRA": 10,
+      "LOTE": 41,
+      "QDLT": "10-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "439"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 24,
+      "QDLT": "11-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "440"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 23,
+      "QDLT": "11-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "441"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 22,
+      "QDLT": "11-22",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "442"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 21,
+      "QDLT": "11-21",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "443"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 20,
+      "QDLT": "11-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "444"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 19,
+      "QDLT": "11-19",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "445"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 18,
+      "QDLT": "11-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "446"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 17,
+      "QDLT": "11-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "447"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 16,
+      "QDLT": "11-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "448"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 15,
+      "QDLT": "11-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "449"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 14,
+      "QDLT": "11-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "450"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 13,
+      "QDLT": "11-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "451"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 12,
+      "QDLT": "11-12",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "452"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 11,
+      "QDLT": "11-11",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "453"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 10,
+      "QDLT": "11-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "454"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 9,
+      "QDLT": "11-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "455"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 8,
+      "QDLT": "11-08",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "456"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 7,
+      "QDLT": "11-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "457"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 6,
+      "QDLT": "11-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "458"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 5,
+      "QDLT": "11-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "459"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 4,
+      "QDLT": "11-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "460"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 3,
+      "QDLT": "11-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "461"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 2,
+      "QDLT": "11-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "462"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 1,
+      "QDLT": "11-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "463"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 53,
+      "QDLT": "11-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "464"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 52,
+      "QDLT": "11-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "465"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 51,
+      "QDLT": "11-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "466"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 50,
+      "QDLT": "11-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "467"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 49,
+      "QDLT": "11-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "468"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 48,
+      "QDLT": "11-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "469"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 47,
+      "QDLT": "11-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "470"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 46,
+      "QDLT": "11-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "471"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 45,
+      "QDLT": "11-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "472"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 44,
+      "QDLT": "11-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "473"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 43,
+      "QDLT": "11-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "474"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 42,
+      "QDLT": "11-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "475"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 41,
+      "QDLT": "11-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "476"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 40,
+      "QDLT": "11-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "477"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 39,
+      "QDLT": "11-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "478"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 38,
+      "QDLT": "11-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "479"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 37,
+      "QDLT": "11-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "480"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 36,
+      "QDLT": "11-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "481"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 35,
+      "QDLT": "11-35",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "482"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 34,
+      "QDLT": "11-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "483"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 33,
+      "QDLT": "11-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "484"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 32,
+      "QDLT": "11-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "485"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 31,
+      "QDLT": "11-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "486"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 30,
+      "QDLT": "11-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "487"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 29,
+      "QDLT": "11-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "488"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 28,
+      "QDLT": "11-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "489"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 27,
+      "QDLT": "11-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "490"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 26,
+      "QDLT": "11-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "491"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 25,
+      "QDLT": "11-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "492"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 56,
+      "QDLT": "11-56",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "493"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 55,
+      "QDLT": "11-55",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "494"
+    },
+    {
+      "QUADRA": 11,
+      "LOTE": 54,
+      "QDLT": "11-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "495"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 29,
+      "QDLT": "12-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "496"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 28,
+      "QDLT": "12-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "497"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 27,
+      "QDLT": "12-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "498"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 26,
+      "QDLT": "12-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "499"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 25,
+      "QDLT": "12-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "500"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 24,
+      "QDLT": "12-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "501"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 23,
+      "QDLT": "12-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "502"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 22,
+      "QDLT": "12-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "503"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 21,
+      "QDLT": "12-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "504"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 20,
+      "QDLT": "12-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "505"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 19,
+      "QDLT": "12-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "506"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 18,
+      "QDLT": "12-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "507"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 17,
+      "QDLT": "12-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "508"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 16,
+      "QDLT": "12-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "509"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 15,
+      "QDLT": "12-15",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "510"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 14,
+      "QDLT": "12-14",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "511"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 13,
+      "QDLT": "12-13",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "512"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 12,
+      "QDLT": "12-12",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "513"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 11,
+      "QDLT": "12-11",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "514"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 10,
+      "QDLT": "12-10",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "515"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 9,
+      "QDLT": "12-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "516"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 8,
+      "QDLT": "12-08",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "517"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 7,
+      "QDLT": "12-07",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "518"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 6,
+      "QDLT": "12-06",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "519"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 5,
+      "QDLT": "12-05",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "520"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 4,
+      "QDLT": "12-04",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "521"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 3,
+      "QDLT": "12-03",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "522"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 2,
+      "QDLT": "12-02",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "523"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 1,
+      "QDLT": "12-01",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "524"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 52,
+      "QDLT": "12-52",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "525"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 51,
+      "QDLT": "12-51",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "526"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 50,
+      "QDLT": "12-50",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "527"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 49,
+      "QDLT": "12-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "528"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 48,
+      "QDLT": "12-48",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "529"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 47,
+      "QDLT": "12-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "530"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 46,
+      "QDLT": "12-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "531"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 45,
+      "QDLT": "12-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "532"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 44,
+      "QDLT": "12-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "533"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 43,
+      "QDLT": "12-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "534"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 42,
+      "QDLT": "12-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "535"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 41,
+      "QDLT": "12-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "536"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 40,
+      "QDLT": "12-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "537"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 39,
+      "QDLT": "12-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "538"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 38,
+      "QDLT": "12-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "539"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 37,
+      "QDLT": "12-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "540"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 36,
+      "QDLT": "12-36",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "541"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 35,
+      "QDLT": "12-35",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "542"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 34,
+      "QDLT": "12-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "543"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 33,
+      "QDLT": "12-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "544"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 32,
+      "QDLT": "12-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "545"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 31,
+      "QDLT": "12-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "546"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 30,
+      "QDLT": "12-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "547"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 55,
+      "QDLT": "12-55",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "548"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 54,
+      "QDLT": "12-54",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "549"
+    },
+    {
+      "QUADRA": 12,
+      "LOTE": 53,
+      "QDLT": "12-53",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "550"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 20,
+      "QDLT": "13-20",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "551"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 19,
+      "QDLT": "13-19",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "552"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 18,
+      "QDLT": "13-18",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "553"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 17,
+      "QDLT": "13-17",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "554"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 16,
+      "QDLT": "13-16",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "555"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 15,
+      "QDLT": "13-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "556"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 14,
+      "QDLT": "13-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "557"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 13,
+      "QDLT": "13-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "558"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 12,
+      "QDLT": "13-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "559"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 11,
+      "QDLT": "13-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "560"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 10,
+      "QDLT": "13-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "561"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 9,
+      "QDLT": "13-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "562"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 8,
+      "QDLT": "13-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "563"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 7,
+      "QDLT": "13-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "564"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 6,
+      "QDLT": "13-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "565"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 5,
+      "QDLT": "13-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "566"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 4,
+      "QDLT": "13-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "567"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 3,
+      "QDLT": "13-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "568"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 2,
+      "QDLT": "13-02",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "569"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 1,
+      "QDLT": "13-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "570"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 34,
+      "QDLT": "13-34",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "571"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 33,
+      "QDLT": "13-33",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "572"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 32,
+      "QDLT": "13-32",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "573"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 31,
+      "QDLT": "13-31",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "574"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 30,
+      "QDLT": "13-30",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "575"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 29,
+      "QDLT": "13-29",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "576"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 28,
+      "QDLT": "13-28",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "577"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 27,
+      "QDLT": "13-27",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "578"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 26,
+      "QDLT": "13-26",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "579"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 25,
+      "QDLT": "13-25",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "580"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 24,
+      "QDLT": "13-24",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "581"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 23,
+      "QDLT": "13-23",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "582"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 22,
+      "QDLT": "13-22",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "583"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 21,
+      "QDLT": "13-21",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "584"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 59,
+      "QDLT": "13-59",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "585"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 58,
+      "QDLT": "13-58",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "586"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 57,
+      "QDLT": "13-57",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "587"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 56,
+      "QDLT": "13-56",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "588"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 55,
+      "QDLT": "13-55",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "589"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 54,
+      "QDLT": "13-54",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "590"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 53,
+      "QDLT": "13-53",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "591"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 52,
+      "QDLT": "13-52",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "592"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 51,
+      "QDLT": "13-51",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "593"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 50,
+      "QDLT": "13-50",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "594"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 49,
+      "QDLT": "13-49",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "595"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 48,
+      "QDLT": "13-48",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "596"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 47,
+      "QDLT": "13-47",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "597"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 46,
+      "QDLT": "13-46",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "598"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 45,
+      "QDLT": "13-45",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "599"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 44,
+      "QDLT": "13-44",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "600"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 43,
+      "QDLT": "13-43",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "601"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 42,
+      "QDLT": "13-42",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "602"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 41,
+      "QDLT": "13-41",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "603"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 40,
+      "QDLT": "13-40",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "604"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 39,
+      "QDLT": "13-39",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "605"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 38,
+      "QDLT": "13-38",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "606"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 37,
+      "QDLT": "13-37",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "607"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 36,
+      "QDLT": "13-36",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "608"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 35,
+      "QDLT": "13-35",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "609"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 64,
+      "QDLT": "13-64",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "610"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 63,
+      "QDLT": "13-63",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "611"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 62,
+      "QDLT": "13-62",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "612"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 61,
+      "QDLT": "13-61",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "613"
+    },
+    {
+      "QUADRA": 13,
+      "LOTE": 60,
+      "QDLT": "13-60",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "614"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 27,
+      "QDLT": "14-27",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "615"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 26,
+      "QDLT": "14-26",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "616"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 25,
+      "QDLT": "14-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "617"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 24,
+      "QDLT": "14-24",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "618"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 23,
+      "QDLT": "14-23",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "619"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 22,
+      "QDLT": "14-22",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "620"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 21,
+      "QDLT": "14-21",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "621"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 20,
+      "QDLT": "14-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "622"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 19,
+      "QDLT": "14-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "623"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 18,
+      "QDLT": "14-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "624"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 17,
+      "QDLT": "14-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "625"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 16,
+      "QDLT": "14-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "626"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 15,
+      "QDLT": "14-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "627"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 14,
+      "QDLT": "14-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "628"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 13,
+      "QDLT": "14-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "629"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 12,
+      "QDLT": "14-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "630"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 11,
+      "QDLT": "14-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "631"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 10,
+      "QDLT": "14-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "632"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 9,
+      "QDLT": "14-09",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "633"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 8,
+      "QDLT": "14-08",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "634"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 7,
+      "QDLT": "14-07",
+      "STATUS": "Q",
+      "SITUACAO": "QUITADO",
+      "id": "635"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 6,
+      "QDLT": "14-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "636"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 5,
+      "QDLT": "14-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "637"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 4,
+      "QDLT": "14-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "638"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 3,
+      "QDLT": "14-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "639"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 2,
+      "QDLT": "14-02",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "640"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 1,
+      "QDLT": "14-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "641"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 60,
+      "QDLT": "14-60",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "642"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 59,
+      "QDLT": "14-59",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "643"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 58,
+      "QDLT": "14-58",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "644"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 57,
+      "QDLT": "14-57",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "645"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 56,
+      "QDLT": "14-56",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "646"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 55,
+      "QDLT": "14-55",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "647"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 54,
+      "QDLT": "14-54",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "648"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 53,
+      "QDLT": "14-53",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "649"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 52,
+      "QDLT": "14-52",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "650"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 51,
+      "QDLT": "14-51",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "651"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 50,
+      "QDLT": "14-50",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "652"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 49,
+      "QDLT": "14-49",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "653"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 48,
+      "QDLT": "14-48",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "654"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 47,
+      "QDLT": "14-47",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "655"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 46,
+      "QDLT": "14-46",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "656"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 45,
+      "QDLT": "14-45",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "657"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 44,
+      "QDLT": "14-44",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "658"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 43,
+      "QDLT": "14-43",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "659"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 42,
+      "QDLT": "14-42",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "660"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 41,
+      "QDLT": "14-41",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "661"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 40,
+      "QDLT": "14-40",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "662"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 39,
+      "QDLT": "14-39",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "663"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 38,
+      "QDLT": "14-38",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "664"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 37,
+      "QDLT": "14-37",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "665"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 36,
+      "QDLT": "14-36",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "666"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 35,
+      "QDLT": "14-35",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "667"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 34,
+      "QDLT": "14-34",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "668"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 33,
+      "QDLT": "14-33",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "669"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 32,
+      "QDLT": "14-32",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "670"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 31,
+      "QDLT": "14-31",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "671"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 30,
+      "QDLT": "14-30",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "672"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 29,
+      "QDLT": "14-29",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "673"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 28,
+      "QDLT": "14-28",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "674"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 76,
+      "QDLT": "14-76",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "675"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 75,
+      "QDLT": "14-75",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "676"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 74,
+      "QDLT": "14-74",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "677"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 73,
+      "QDLT": "14-73",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "678"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 72,
+      "QDLT": "14-72",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "679"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 71,
+      "QDLT": "14-71",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "680"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 70,
+      "QDLT": "14-70",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "681"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 69,
+      "QDLT": "14-69",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "682"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 68,
+      "QDLT": "14-68",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "683"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 67,
+      "QDLT": "14-67",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "684"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 66,
+      "QDLT": "14-66",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "685"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 65,
+      "QDLT": "14-65",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "686"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 64,
+      "QDLT": "14-64",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "687"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 63,
+      "QDLT": "14-63",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "688"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 62,
+      "QDLT": "14-62",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "689"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 61,
+      "QDLT": "14-61",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "690"
+    },
+    {
+      "QUADRA": 14,
+      "LOTE": 77,
+      "QDLT": "14-77",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "691"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 18,
+      "QDLT": "15-18",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "692"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 17,
+      "QDLT": "15-17",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "693"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 16,
+      "QDLT": "15-16",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "694"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 15,
+      "QDLT": "15-15",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "695"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 14,
+      "QDLT": "15-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "696"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 13,
+      "QDLT": "15-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "697"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 12,
+      "QDLT": "15-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "698"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 11,
+      "QDLT": "15-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "699"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 10,
+      "QDLT": "15-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "700"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 9,
+      "QDLT": "15-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "701"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 8,
+      "QDLT": "15-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "702"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 7,
+      "QDLT": "15-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "703"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 6,
+      "QDLT": "15-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "704"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 5,
+      "QDLT": "15-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "705"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 4,
+      "QDLT": "15-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "706"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 3,
+      "QDLT": "15-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "707"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 2,
+      "QDLT": "15-02",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "708"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 1,
+      "QDLT": "15-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "709"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 71,
+      "QDLT": "15-71",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "710"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 70,
+      "QDLT": "15-70",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "711"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 69,
+      "QDLT": "15-69",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "712"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 68,
+      "QDLT": "15-68",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "713"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 67,
+      "QDLT": "15-67",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "714"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 66,
+      "QDLT": "15-66",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "715"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 65,
+      "QDLT": "15-65",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "716"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 64,
+      "QDLT": "15-64",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "717"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 63,
+      "QDLT": "15-63",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "718"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 62,
+      "QDLT": "15-62",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "719"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 61,
+      "QDLT": "15-61",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "720"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 60,
+      "QDLT": "15-60",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "721"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 59,
+      "QDLT": "15-59",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "722"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 58,
+      "QDLT": "15-58",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "723"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 57,
+      "QDLT": "15-57",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "724"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 56,
+      "QDLT": "15-56",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "725"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 55,
+      "QDLT": "15-55",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "726"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 54,
+      "QDLT": "15-54",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "727"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 53,
+      "QDLT": "15-53",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "728"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 52,
+      "QDLT": "15-52",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "729"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 51,
+      "QDLT": "15-51",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "730"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 50,
+      "QDLT": "15-50",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "731"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 49,
+      "QDLT": "15-49",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "732"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 48,
+      "QDLT": "15-48",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "733"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 47,
+      "QDLT": "15-47",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "734"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 46,
+      "QDLT": "15-46",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "735"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 45,
+      "QDLT": "15-45",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "736"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 44,
+      "QDLT": "15-44",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "737"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 43,
+      "QDLT": "15-43",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "738"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 42,
+      "QDLT": "15-42",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "739"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 41,
+      "QDLT": "15-41",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "740"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 40,
+      "QDLT": "15-40",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "741"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 39,
+      "QDLT": "15-39",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "742"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 38,
+      "QDLT": "15-38",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "743"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 37,
+      "QDLT": "15-37",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "744"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 36,
+      "QDLT": "15-36",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "745"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 35,
+      "QDLT": "15-35",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "746"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 34,
+      "QDLT": "15-34",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "747"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 33,
+      "QDLT": "15-33",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "748"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 32,
+      "QDLT": "15-32",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "749"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 31,
+      "QDLT": "15-31",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "750"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 30,
+      "QDLT": "15-30",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "751"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 29,
+      "QDLT": "15-29",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "752"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 28,
+      "QDLT": "15-28",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "753"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 27,
+      "QDLT": "15-27",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "754"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 26,
+      "QDLT": "15-26",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "755"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 25,
+      "QDLT": "15-25",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "756"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 24,
+      "QDLT": "15-24",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "757"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 23,
+      "QDLT": "15-23",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "758"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 22,
+      "QDLT": "15-22",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "759"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 21,
+      "QDLT": "15-21",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "760"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 20,
+      "QDLT": "15-20",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "761"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 19,
+      "QDLT": "15-19",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "762"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 76,
+      "QDLT": "15-76",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "763"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 75,
+      "QDLT": "15-75",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "764"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 74,
+      "QDLT": "15-74",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "765"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 73,
+      "QDLT": "15-73",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "766"
+    },
+    {
+      "QUADRA": 15,
+      "LOTE": 72,
+      "QDLT": "15-72",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "767"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 28,
+      "QDLT": "16-28",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "768"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 27,
+      "QDLT": "16-27",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "769"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 26,
+      "QDLT": "16-26",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "770"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 25,
+      "QDLT": "16-25",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "771"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 24,
+      "QDLT": "16-24",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "772"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 23,
+      "QDLT": "16-23",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "773"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 22,
+      "QDLT": "16-22",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "774"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 21,
+      "QDLT": "16-21",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "775"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 20,
+      "QDLT": "16-20",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "776"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 19,
+      "QDLT": "16-19",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "777"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 18,
+      "QDLT": "16-18",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "778"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 17,
+      "QDLT": "16-17",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "779"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 16,
+      "QDLT": "16-16",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "780"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 15,
+      "QDLT": "16-15",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "781"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 14,
+      "QDLT": "16-14",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "782"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 13,
+      "QDLT": "16-13",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "783"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 12,
+      "QDLT": "16-12",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "784"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 11,
+      "QDLT": "16-11",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "785"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 10,
+      "QDLT": "16-10",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "786"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 9,
+      "QDLT": "16-09",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "787"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 8,
+      "QDLT": "16-08",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "788"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 7,
+      "QDLT": "16-07",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "789"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 6,
+      "QDLT": "16-06",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "790"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 5,
+      "QDLT": "16-05",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "791"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 4,
+      "QDLT": "16-04",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "792"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 3,
+      "QDLT": "16-03",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "793"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 2,
+      "QDLT": "16-02",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "794"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 1,
+      "QDLT": "16-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "795"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 72,
+      "QDLT": "16-72",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "796"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 71,
+      "QDLT": "16-71",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "797"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 70,
+      "QDLT": "16-70",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "798"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 69,
+      "QDLT": "16-69",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "799"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 68,
+      "QDLT": "16-68",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "800"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 67,
+      "QDLT": "16-67",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "801"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 66,
+      "QDLT": "16-66",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "802"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 65,
+      "QDLT": "16-65",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "803"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 64,
+      "QDLT": "16-64",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "804"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 63,
+      "QDLT": "16-63",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "805"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 62,
+      "QDLT": "16-62",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "806"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 61,
+      "QDLT": "16-61",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "807"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 60,
+      "QDLT": "16-60",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "808"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 59,
+      "QDLT": "16-59",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "809"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 58,
+      "QDLT": "16-58",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "810"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 57,
+      "QDLT": "16-57",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "811"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 56,
+      "QDLT": "16-56",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "812"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 55,
+      "QDLT": "16-55",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "813"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 54,
+      "QDLT": "16-54",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "814"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 53,
+      "QDLT": "16-53",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "815"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 52,
+      "QDLT": "16-52",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "816"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 51,
+      "QDLT": "16-51",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "817"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 50,
+      "QDLT": "16-50",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "818"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 49,
+      "QDLT": "16-49",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "819"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 48,
+      "QDLT": "16-48",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "820"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 47,
+      "QDLT": "16-47",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "821"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 46,
+      "QDLT": "16-46",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "822"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 45,
+      "QDLT": "16-45",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "823"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 44,
+      "QDLT": "16-44",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "824"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 43,
+      "QDLT": "16-43",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "825"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 42,
+      "QDLT": "16-42",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "826"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 41,
+      "QDLT": "16-41",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "827"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 40,
+      "QDLT": "16-40",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "828"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 39,
+      "QDLT": "16-39",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "829"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 38,
+      "QDLT": "16-38",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "830"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 37,
+      "QDLT": "16-37",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "831"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 36,
+      "QDLT": "16-36",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "832"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 35,
+      "QDLT": "16-35",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "833"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 34,
+      "QDLT": "16-34",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "834"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 33,
+      "QDLT": "16-33",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "835"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 32,
+      "QDLT": "16-32",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "836"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 31,
+      "QDLT": "16-31",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "837"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 30,
+      "QDLT": "16-30",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "838"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 29,
+      "QDLT": "16-29",
+      "STATUS": "I",
+      "SITUACAO": "CASAS POPULARES",
+      "id": "839"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 76,
+      "QDLT": "16-76",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "840"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 75,
+      "QDLT": "16-75",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "841"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 74,
+      "QDLT": "16-74",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "842"
+    },
+    {
+      "QUADRA": 16,
+      "LOTE": 73,
+      "QDLT": "16-73",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "843"
+    },
+    {
+      "QUADRA": 99,
+      "LOTE": 1,
+      "QDLT": "99-01",
+      "STATUS": "G",
+      "SITUACAO": "ÁREA VERDE",
+      "id": "844"
+    },
+    {
+      "QUADRA": 99,
+      "LOTE": 1,
+      "QDLT": "99-01",
+      "STATUS": "G",
+      "SITUACAO": "ÁREA VERDE",
+      "id": "845"
+    },
+    {
+      "QUADRA": 99,
+      "LOTE": 1,
+      "QDLT": "99-01",
+      "STATUS": "G",
+      "SITUACAO": "ÁREA VERDE",
+      "id": "846"
+    },
+    {
+      "QUADRA": 17,
+      "LOTE": 1,
+      "QDLT": "17-01",
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "847"
+    },
+    {
+      "QUADRA": 99,
+      "LOTE": 1,
+      "QDLT": "99-01",
+      "STATUS": "G",
+      "SITUACAO": "ÁREA VERDE",
+      "id": "848"
+    }
+  ]
+}
