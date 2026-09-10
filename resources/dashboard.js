@@ -49,7 +49,7 @@
     $('sales').textContent = covered ? number(result.sales) : '—';
     $('cancellations').textContent = covered ? number(result.cancellations) : '—';
     $('net').textContent = covered ? number(result.sales - result.cancellations) : '—';
-    $('coverage').textContent = result.started ? 'Histórico registrado a partir de ' + date(result.started) + '. O primeiro mês é parcial; períodos anteriores não têm dados. O mês corrente está em andamento.' : 'Histórico ainda não iniciado. As próximas alterações salvas em Atualizar situações formarão o comparativo. As vendas existentes não têm data individual e não foram atribuídas a um mês.';
+    $('coverage').textContent = result.hasMonthlyBaseline ? 'Histórico mensal importado desde 01/2025 • Base atualizada em ' + result.baselineUpdatedDate + '. O mês corrente está em andamento e novas alterações serão somadas automaticamente.' : result.started ? 'Este filtro por quadra mostra somente alterações individuais registradas desde ' + date(result.started) + '. O histórico importado não possui detalhamento por quadra.' : $('block').value ? 'O histórico importado não possui detalhamento por quadra. As próximas alterações individuais desta quadra formarão o comparativo.' : 'Histórico ainda não iniciado. As próximas alterações salvas em Dados formarão o comparativo.';
     $('chart').replaceChildren(); $('monthly').replaceChildren();
     const max = Math.max(1, ...result.rows.flatMap(r => [r.sales,r.cancellations]));
     result.rows.forEach((r,i) => {
@@ -70,13 +70,17 @@
     });
     $('distribution').replaceChildren();
     const colors = { 'DISPONÍVEL':'#20947f', VENDIDO:'#9b364b', QUITADO:'#617bb0', BLOQUEADO:'#d5a450', 'ÁREA VERDE':'#94b39c', 'CASAS POPULARES':'#8e9bad' };
-    Object.entries(result.counts).forEach(([status,count]) => {
+    const omitted = new Set(['CASAS POPULARES','ÁREA VERDE']);
+    const distribution = Object.entries(result.counts).filter(([status]) => !omitted.has(status));
+    const distributionTotal = distribution.reduce((sum,[,count]) => sum + count,0);
+    distribution.forEach(([status,count]) => {
       const item = document.createElement('div'); item.className = 'distribution-row';
       const title = document.createElement('div'); title.className = 'distribution-label';
       const name = document.createElement('span'); name.textContent = status;
-      const value = document.createElement('strong'); value.textContent = number(count); title.append(name,value);
+      const percent = distributionTotal ? count / distributionTotal * 100 : 0;
+      const value = document.createElement('strong'); value.textContent = number(count) + ' / ' + percent.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}) + '%'; title.append(name,value);
       const track = document.createElement('div'); track.className = 'track';
-      const bar = document.createElement('div'); bar.style.width = (result.objects.length ? count / result.objects.length * 100 : 0) + '%'; bar.style.background = colors[status] || '#8e9bad';
+      const bar = document.createElement('div'); bar.style.width = percent + '%'; bar.style.background = colors[status] || '#8e9bad';
       track.appendChild(bar); item.append(title,track); $('distribution').appendChild(item);
     });
     $('blocks').replaceChildren();
@@ -93,8 +97,12 @@
   async function load() {
     if (loading) return; loading = true; $('refresh').disabled = true;
     try {
-      const next = await MoriaStore.loadPublic();
-      data = next;
+      const [next,historyResponse] = await Promise.all([MoriaStore.loadPublic(),fetch('data/dashboard-historico.json?v=' + Date.now(),{cache:'no-store'})]);
+      if (!historyResponse.ok) throw new Error('Não foi possível carregar o histórico mensal publicado.');
+      const monthly = await historyResponse.json();
+      const validRows = monthly && Array.isArray(monthly.months) && monthly.months.every(row => /^\d{4}-\d{2}$/.test(row.month) && Number.isSafeInteger(row.sales) && row.sales >= 0 && Number.isSafeInteger(row.cancellations) && row.cancellations >= 0);
+      if (!validRows || new Set(monthly.months.map(row => row.month)).size !== monthly.months.length) throw new Error('O histórico mensal publicado é inválido.');
+      data = { ...next, monthlyBaseline: monthly.months, monthlyBaselineMeta: monthly };
       const selected = $('block').value;
       $('block').replaceChildren(new Option('Todas as quadras',''));
       [...new Set(data.objects.map(o => String(o.QUADRA)))].sort((a,b) => a.localeCompare(b,'pt-BR',{numeric:true})).forEach(q => $('block').add(new Option('Quadra ' + q,q)));

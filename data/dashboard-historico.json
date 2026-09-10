@@ -1,0 +1,28 @@
+{
+  "updatedDate": "10/09/2026",
+  "source": "dashboar_historico.xlsx",
+  "eventsIncludedThroughRevision": 13,
+  "months": [
+    { "month": "2025-01", "sales": 6, "cancellations": 4 },
+    { "month": "2025-02", "sales": 2, "cancellations": 3 },
+    { "month": "2025-03", "sales": 0, "cancellations": 7 },
+    { "month": "2025-04", "sales": 8, "cancellations": 4 },
+    { "month": "2025-05", "sales": 3, "cancellations": 4 },
+    { "month": "2025-06", "sales": 0, "cancellations": 5 },
+    { "month": "2025-07", "sales": 6, "cancellations": 0 },
+    { "month": "2025-08", "sales": 8, "cancellations": 8 },
+    { "month": "2025-09", "sales": 4, "cancellations": 3 },
+    { "month": "2025-10", "sales": 5, "cancellations": 9 },
+    { "month": "2025-11", "sales": 0, "cancellations": 4 },
+    { "month": "2025-12", "sales": 15, "cancellations": 0 },
+    { "month": "2026-01", "sales": 0, "cancellations": 2 },
+    { "month": "2026-02", "sales": 3, "cancellations": 3 },
+    { "month": "2026-03", "sales": 0, "cancellations": 2 },
+    { "month": "2026-04", "sales": 7, "cancellations": 4 },
+    { "month": "2026-05", "sales": 1, "cancellations": 3 },
+    { "month": "2026-06", "sales": 4, "cancellations": 3 },
+    { "month": "2026-07", "sales": 1, "cancellations": 5 },
+    { "month": "2026-08", "sales": 3, "cancellations": 5 },
+    { "month": "2026-09", "sales": 3, "cancellations": 1, "inProgress": true }
+  ]
+}

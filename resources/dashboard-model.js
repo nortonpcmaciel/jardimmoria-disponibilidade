@@ -43,22 +43,30 @@
     const counts = Object.fromEntries(Object.keys(data.options).map(s => [s, 0]));
     objects.forEach(o => { counts[o.SITUACAO] = (counts[o.SITUACAO] || 0) + 1; });
     const history = data.history || [];
+    const baseline = !filters.block && Array.isArray(data.monthlyBaseline) ? data.monthlyBaseline : [];
+    const baselineByMonth = new Map(baseline.map(row => [row.month, row]));
+    const cutoffRevision = Number.isSafeInteger(data.monthlyBaselineMeta?.eventsIncludedThroughRevision) ? data.monthlyBaselineMeta.eventsIncludedThroughRevision : -1;
     const started = data.historyStartedAt || (history.length ? history.reduce((a,e) => a < e.at ? a : e.at, history[0].at) : null);
     const events = history.filter(e => (!filters.block || String(e.QUADRA) === filters.block) && month(e.at) >= filters.start && month(e.at) <= filters.end)
       .map(e => ({ ...e, type: type(e) })).sort((a,b) => b.at.localeCompare(a.at) || b.revision - a.revision);
     const rows = months(filters.start, filters.end).map(key => {
-      const covered = !!started && key >= month(started);
-      return { month: key, covered, partial: !!started && key === month(started), sales: 0, cancellations: 0 };
+      const imported = baselineByMonth.get(key);
+      const liveCovered = !!started && key >= month(started);
+      return { month: key, covered: !!imported || liveCovered,
+        partial: !!imported?.inProgress || (!imported && !!started && key === month(started)),
+        sales: imported?.sales || 0, cancellations: imported?.cancellations || 0 };
     });
     const byMonth = new Map(rows.map(r => [r.month, r]));
-    events.forEach(e => {
+    const flowEvents = filters.block ? events : events.filter(e => e.revision > cutoffRevision);
+    flowEvents.forEach(e => {
       const row = byMonth.get(month(e.at));
       if (row && e.type === 'Venda') row.sales++;
       if (row && e.type === 'Cancelamento') row.cancellations++;
     });
-    const sales = events.filter(e => e.type === 'Venda').length;
-    const cancellations = events.filter(e => e.type === 'Cancelamento').length;
+    const sales = rows.filter(r => r.covered).reduce((sum, row) => sum + row.sales, 0);
+    const cancellations = rows.filter(r => r.covered).reduce((sum, row) => sum + row.cancellations, 0);
     return { objects, counts, events, rows, sales, cancellations, started,
+      hasMonthlyBaseline: baseline.length > 0, baselineUpdatedDate: data.monthlyBaselineMeta?.updatedDate || null,
       commercialized: objects.filter(o => sold(o.SITUACAO)).length,
       available: counts['DISPONÍVEL'] || 0 };
   }
