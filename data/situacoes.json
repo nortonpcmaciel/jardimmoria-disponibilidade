@@ -1,7 +1,7 @@
 {
   "dataset": "65ec05ebde6a052c85b76322b1b577b2ee9558474d0edc17d8d6a2dc8e6395e0",
-  "revision": 13,
-  "updatedDate": "09/09/2026",
+  "revision": 14,
+  "updatedDate": "11/09/2026",
   "options": {
     "VENDIDO": "V",
     "BLOQUEADO": "B",
@@ -2063,9 +2063,10 @@
       "QUADRA": 7,
       "LOTE": 24,
       "QDLT": "07-24",
-      "STATUS": "D",
-      "SITUACAO": "DISPONÍVEL",
-      "id": "257"
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
+      "id": "257",
+      "updatedAt": "2026-09-11T14:29:54.778Z"
     },
     {
       "QUADRA": 7,
@@ -6794,6 +6795,19 @@
       "STATUS": "G",
       "SITUACAO": "ÁREA VERDE",
       "id": "848"
+    }
+  ],
+  "historyStartedAt": "2026-09-11T14:29:54.778Z",
+  "history": [
+    {
+      "revision": 14,
+      "objectId": "257",
+      "QDLT": "07-24",
+      "QUADRA": 7,
+      "LOTE": 24,
+      "from": "DISPONÍVEL",
+      "to": "VENDIDO",
+      "at": "2026-09-11T14:29:54.778Z"
     }
   ]
 }
