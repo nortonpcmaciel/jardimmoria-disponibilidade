@@ -5,6 +5,7 @@
     if (location.protocol === 'file:') return;
     try {
       const data = await MoriaStore.loadPublic();
+      window.dispatchEvent(new CustomEvent('moria:data', { detail: data }));
       const footer = document.getElementById('data-atualizacao');
       if (footer) footer.textContent = 'ATUALIZADO EM ' + data.updatedDate;
       if (typeof features_JARDIMMORI_1 !== 'undefined' && revision !== data.revision) {

@@ -45,7 +45,7 @@ test('salvamento compartilhado, autenticação, conflitos, data e persistência'
   await save({ id: duplicates[0].id, situacao: 'BLOQUEADO', revision: 1 });
   const updated = await get();
   assert.equal(updated.objects.find(o => o.id === duplicates[1].id).SITUACAO, 'ÁREA VERDE');
-  for (const file of ['/index.html', '/index2.html', '/atualizar.html', '/dashboard.html', '/data/dashboard-historico.json', '/resources/dashboard.js', '/resources/dashboard-model.js', '/resources/dashboard.css', '/resources/atualizar.js', '/resources/situacoes-sync.js'])
+  for (const file of ['/index.html', '/index2.html', '/atualizar.html', '/dashboard.html', '/data/dashboard-historico.json', '/data/lotes-detalhes.json', '/resources/dashboard.js', '/resources/dashboard-model.js', '/resources/dashboard.css', '/resources/atualizar.js', '/resources/situacoes-sync.js'])
     assert.equal((await fetch(address + file)).status, 200, file);
   for (const file of ['/server.js', '/private/situacoes.json', '/package.json'])
     assert.equal((await fetch(address + file)).status, 404, file);

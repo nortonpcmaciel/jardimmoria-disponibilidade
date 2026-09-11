@@ -11,13 +11,13 @@
     <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Dashboard</span></div>
     <details class="page-menu">
       <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
-      <nav aria-label="Páginas"><a href="index.html">Mapa</a><a href="atualizar.html">Dados</a></nav>
+      <nav aria-label="Páginas"><a href="index.html">Quadro</a><a href="atualizar.html">Dados</a></nav>
     </details>
   </header>
   <main>
-    <div class="heading"><div><p class="eyebrow">VISÃO COMERCIAL</p><h1>Vendas & disponibilidade</h1><p>Acompanhe o estoque atual e a evolução das movimentações.</p></div><button id="refresh" type="button">↻ Atualizar dados</button></div>
+    <div class="heading"><div><p class="eyebrow">VISÃO COMERCIAL</p><h1>Vendas & Disponibilidade</h1><p>Acompanhe o estoque atual e a evolução das movimentações.</p></div><button id="refresh" type="button">↻ Atualizar dados</button></div>
     <p id="message" role="status" aria-live="polite">Carregando dados publicados…</p>
-    <section class="filters" aria-label="Filtros do dashboard"><label>Quadra<select id="block"><option value="">Todas as quadras</option></select></label><label>Mês inicial<input id="start" type="month" min="2000-01" max="2099-12"></label><label>Mês final<input id="end" type="month" min="2000-01" max="2099-12"></label><button id="reset" class="secondary" type="button">Últimos 12 meses</button><span>Período aplicado ao histórico.<br>Estoque sempre na situação atual.</span></section>
+    <section class="filters" aria-label="Filtros do dashboard"><label>Quadra<select id="block"><option value="">Todas as quadras</option></select></label><label>Mês inicial<input id="start" type="month" min="2000-01" max="2099-12"></label><label>Mês final<input id="end" type="month" min="2000-01" max="2099-12"></label><label>Intervalos<select id="interval"><option value="last12">Últimos 12 meses</option><option value="currentYear">Ano Atual</option><option value="previousYear">Ano Anterior</option></select></label><span>Período aplicado ao histórico.<br>Estoque sempre na situação atual.</span></section>
     <div id="content" hidden>
       <section class="cards" aria-label="Indicadores atuais"><article class="card"><p>Objetos cadastrados</p><strong id="total">—</strong><small>Na quadra selecionada</small></article><article class="card available"><p>Disponíveis</p><strong id="available">—</strong><small>Prontos para comercialização</small></article><article class="card sold"><p>Comercializados</p><strong id="sold">—</strong><small>Vendidos + quitados</small></article><article class="card"><p>Comercialização</p><strong id="rate">—</strong><small>Sobre disponíveis + comercializados</small></article></section>
       <div class="section-title"><h2>Movimentações no período</h2><span id="period"></span></div>

@@ -28,6 +28,13 @@
     const absoluteMonth = year * 12 + monthNumber - length;
     return Math.floor(absoluteMonth / 12) + '-' + String(absoluteMonth % 12 + 1).padStart(2, '0');
   }
+  function intervalRange(kind, currentMonth) {
+    if (!/^\d{4}-\d{2}$/.test(currentMonth)) return { start: '', end: '' };
+    const year = Number(currentMonth.slice(0, 4));
+    if (kind === 'currentYear') return { start: year + '-01', end: currentMonth };
+    if (kind === 'previousYear') return { start: year - 1 + '-01', end: year - 1 + '-12' };
+    return { start: periodStart(currentMonth, 12), end: currentMonth };
+  }
   function compare(rows, currentMonth) {
     return rows.map((row, i) => {
       const previous = rows[i - 1];
@@ -70,7 +77,7 @@
       commercialized: objects.filter(o => sold(o.SITUACAO)).length,
       available: counts['DISPONÍVEL'] || 0 };
   }
-  const api = { month, type, months, periodStart, summarize, compare };
+  const api = { month, type, months, periodStart, intervalRange, summarize, compare };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.MoriaDashboard = api;
 }(typeof window !== 'undefined' ? window : globalThis));

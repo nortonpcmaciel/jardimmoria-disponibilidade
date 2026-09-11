@@ -1,20 +1,24 @@
 (function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  let data, busy = false;
+  let data, busy = false, lotes = {};
   const drafts = new Map();
+  const omitted = new Set(['CASAS POPULARES', 'ÁREA VERDE']);
+  const area = value => value == null ? '—' : value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   function message(text, error) { $('mensagem').textContent = text; $('mensagem').className = error ? 'error' : ''; }
   function addOption(select, value) { const option = document.createElement('option'); option.value = value; option.textContent = value; select.appendChild(option); }
   function render() {
     if (!data) return;
     const query = $('busca').value.trim().toLocaleLowerCase('pt-BR');
-    const items = data.objects.filter(o => (!$('quadra').value || String(o.QUADRA) === $('quadra').value) &&
+    const eligible = data.objects.filter(o => !omitted.has(o.SITUACAO));
+    const items = eligible.filter(o => (!$('quadra').value || String(o.QUADRA) === $('quadra').value) &&
       (!$('situacao').value || o.SITUACAO === $('situacao').value) &&
-      (!query || [o.QDLT, o.QUADRA, o.LOTE, 'objeto ' + o.id].some(v => String(v).toLocaleLowerCase('pt-BR').includes(query))));
+      (!query || [o.QDLT, o.QUADRA, o.LOTE, lotes[o.QDLT]?.logradouro].some(v => String(v || '').toLocaleLowerCase('pt-BR').includes(query))));
     $('objetos').replaceChildren();
     for (const item of items) {
       const row = document.createElement('tr');
-      for (const value of [item.id, item.QUADRA, item.LOTE, item.QDLT, item.SITUACAO, item.updatedAt ? new Date(item.updatedAt).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'Sem registro individual']) {
+      const details = lotes[item.QDLT] || {};
+      for (const value of [item.QDLT, item.QUADRA, item.LOTE, area(details.area), details.logradouro || '—', item.SITUACAO, item.updatedAt ? new Date(item.updatedAt).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'Sem registro individual']) {
         const cell = document.createElement('td'); cell.textContent = value; row.appendChild(cell);
       }
       const cell = document.createElement('td'), select = document.createElement('select');
@@ -43,17 +47,22 @@
       };
       action.appendChild(button); row.appendChild(action); $('objetos').appendChild(row);
     }
-    $('resumo').textContent = items.length + ' de ' + data.objects.length + ' objetos • Atualizado em ' + data.updatedDate;
+    $('resumo').textContent = items.length + ' de ' + eligible.length + ' lotes • Atualizado em ' + data.updatedDate;
   }
   async function load() {
     $('recarregar').disabled = true;
     try {
-      data = await MoriaStore.loadAdmin($('senha').value.trim());
+      const [next, detailsResponse] = await Promise.all([
+        MoriaStore.loadAdmin($('senha').value.trim()),
+        fetch('data/lotes-detalhes.json?v=' + Date.now(), { cache: 'no-store' })
+      ]);
+      if (!detailsResponse.ok) throw new Error('Não foi possível carregar as áreas e os logradouros.');
+      data = next; lotes = await detailsResponse.json();
       if ($('quadra').options.length === 1) {
         [...new Set(data.objects.map(o => o.QUADRA))].sort((a,b) => a-b).forEach(q => addOption($('quadra'), String(q)));
-        Object.keys(data.options).sort().forEach(s => addOption($('situacao'), s));
+        Object.keys(data.options).filter(s => !omitted.has(s)).sort().forEach(s => addOption($('situacao'), s));
       }
-      render(); message('Dados carregados. Cada linha corresponde a um objeto; códigos repetidos são identificados pelo número do objeto.');
+      render(); message('Dados carregados. Cada linha corresponde a um lote comercializável.');
     } catch (error) { message(error.message, true); }
     finally { $('recarregar').disabled = false; }
   }

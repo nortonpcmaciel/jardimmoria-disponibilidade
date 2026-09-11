@@ -3,85 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jardim Moriá — Quadro de disponibilidade</title>
-<style>
-body {
-    margin: 0;
-    background: #f4f5f8;
-}
-.janela {
-    width: min(1000px, 100%);
-    margin: 30px auto;
-    background: #ac2b38;
-    border: 1px solid #999;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-}
-
-.barra-titulo {
-
-    background: #ac2b38;
-    height: 80px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-family: Arial;
-    font-weight: bold;
-    color: #ffffff;
-    border-bottom: 1px solid #ccc;
-}
-
-.barra-rodape {
-
-    background: #ac2b38;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
-    font-weight: bold;
-    color: #ffffff;
-    border-bottom: 1px solid #ccc;
-}
-
-
-.logo-cabecalho {
-    max-height: 80px;
-    width: auto;
-}
-
-iframe {
-    width: 100%;
-    height: 700px;
-    border: none;
-
-    background: #ac2b38;
-}
-</style>
+<title>Jardim Moriá — Quadro de Disponibilidade</title>
 <link rel="stylesheet" href="resources/dashboard-nav.css">
+<style>
+:root{font-family:Inter,"Segoe UI",Arial,sans-serif;color:#252b36;background:#f4f5f8}*{box-sizing:border-box}body{margin:0}.content{width:min(1000px,calc(100% - 40px));margin:30px auto}.map-card{background:#ac2b38;border:1px solid #999;border-radius:8px;overflow:hidden;box-shadow:0 5px 20px rgba(0,0,0,.2)}iframe{display:block;width:100%;height:700px;border:0;background:#ac2b38}.updated{min-height:34px;display:flex;justify-content:center;align-items:center;color:#fff;font:400 13px Arial,sans-serif;border-top:1px solid rgba(255,255,255,.35)}.available-section{margin-top:30px;padding:24px;background:#fff;border:1px solid #e4e7ed;border-radius:12px}.section-title{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-title h2{margin:0;font-size:20px}.section-title p{margin:0;color:#727887;font-size:13px}.table-wrap{max-height:520px;overflow:auto}table{border-collapse:collapse;width:100%;text-align:left;white-space:nowrap;font-size:13px}th{position:sticky;top:0;background:#f8f9fb;color:#75808f;font-weight:600}td,th{padding:13px 12px;border-bottom:1px solid #edf0f4}td:first-child{font-weight:600;color:#86293c}.empty{text-align:center;color:#78808b;padding:28px}footer{display:flex;justify-content:space-between;border-top:1px solid #dfe3e9;padding:24px 0 0;margin-top:30px;color:#86293c;font-size:12px}footer span{color:#8a919e;font-size:11px}@media(max-width:700px){.content{width:calc(100% - 24px);margin:18px auto}iframe{height:560px}.available-section{padding:18px 12px}.section-title{align-items:start;flex-direction:column;gap:6px}footer{gap:12px;flex-direction:column}}
+</style>
 </head>
 <body>
-
 <header class="topbar">
-    <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Mapa</span></div>
-    <details class="page-menu">
-        <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
-        <nav aria-label="Páginas"><a href="dashboard.html">Dashboard</a><a href="atualizar.html">Dados</a></nav>
-    </details>
+  <div class="page-brand"><img src="images/logo_jardimmoria.png" alt="Jardim Moriá"><span>Quadro de Disponibilidade</span></div>
+  <details class="page-menu">
+    <summary aria-label="Abrir menu de páginas"><span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span></summary>
+    <nav aria-label="Páginas"><a href="dashboard.html">Dashboard</a><a href="atualizar.html">Dados</a></nav>
+  </details>
 </header>
-
-<div class="janela">
-
+<main class="content">
+  <section class="map-card" aria-label="Mapa de disponibilidade">
     <iframe src="index2.html" title="Mapa interativo Jardim Moriá"></iframe>
-
-    <div class="barra-rodape" id="data-atualizacao" aria-live="polite">
-          ATUALIZADO EM 02/06/2026
-    </div>
-
-</div>
+    <div class="updated" id="data-atualizacao" aria-live="polite">ATUALIZADO EM 02/06/2026</div>
+  </section>
+  <section class="available-section" aria-labelledby="disponiveis-titulo">
+    <div class="section-title"><h2 id="disponiveis-titulo">Lotes disponíveis</h2><p id="disponiveis-resumo" aria-live="polite">Carregando dados…</p></div>
+    <div class="table-wrap"><table><thead><tr><th>Código</th><th>Quadra</th><th>Lote</th><th>Área (m²)</th><th>Logradouro</th></tr></thead><tbody id="lotes-disponiveis"><tr><td class="empty" colspan="5">Carregando lotes disponíveis…</td></tr></tbody></table></div>
+  </section>
+  <footer>Jardim Moriá <span>Inteligência comercial • dados do quadro de disponibilidade</span></footer>
+</main>
 <script src="resources/github-config.js"></script>
 <script src="resources/github-store.js"></script>
+<script src="resources/lotes-lista.js"></script>
 <script src="resources/situacoes-sync.js"></script>
 </body>
 </html>

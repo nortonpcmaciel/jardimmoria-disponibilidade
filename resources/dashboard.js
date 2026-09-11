@@ -11,8 +11,12 @@
   function defaults() {
     const end = model.month(new Date());
     $('end').max = end; $('start').max = end;
-    $('end').value = end;
-    $('start').value = model.periodStart(end, 12);
+    $('interval').value = 'last12';
+    applyInterval();
+  }
+  function applyInterval() {
+    const range = model.intervalRange($('interval').value, model.month(new Date()));
+    $('start').value = range.start; $('end').value = range.end;
   }
   function renderEvents() {
     const query = $('search').value.trim().toLocaleLowerCase('pt-BR');
@@ -112,9 +116,10 @@
     finally { loading = false; $('refresh').disabled = false; }
   }
   ['block','start','end'].forEach(id => $(id).addEventListener('change', () => { page = 0; render(); }));
+  $('interval').addEventListener('change', () => { applyInterval(); page = 0; render(); });
   ['search','event-type'].forEach(id => $(id).addEventListener('input', () => { page = 0; if (result) renderEvents(); }));
   $('prev').onclick = () => { page--; renderEvents(); }; $('next').onclick = () => { page++; renderEvents(); };
-  $('reset').onclick = () => { defaults(); page = 0; render(); }; $('refresh').onclick = load;
+  $('refresh').onclick = load;
   $('export').onclick = () => {
     const quote = v => '"' + String(v).replace(/^[=+@-]/, "'$&").replace(/"/g,'""') + '"';
     const rows = [['Data e hora (São Paulo)','Objeto','Quadra','Lote','Código','Anterior','Atual','Movimentação'], ...filteredEvents.map(e => [date(e.at),e.objectId,e.QUADRA,e.LOTE,e.QDLT,e.from,e.to,e.type])];
