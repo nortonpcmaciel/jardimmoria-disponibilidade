@@ -34,6 +34,20 @@ test('intervalos rápidos cobrem últimos 12 meses, ano atual e ano anterior', (
   assert.deepEqual(model.intervalRange('currentYear', '2026-09'), {start:'2026-01',end:'2026-09'});
   assert.deepEqual(model.intervalRange('previousYear', '2026-09'), {start:'2025-01',end:'2025-12'});
 });
+test('objetos e quadras do dashboard seguem a listagem de Dados', () => {
+  const data = { options:{'DISPONÍVEL':'D','VENDIDO':'V','CASAS POPULARES':'C','ÁREA VERDE':'A'}, objects:[
+    {id:'1',QUADRA:1,SITUACAO:'DISPONÍVEL'},
+    {id:'2',QUADRA:1,SITUACAO:'VENDIDO'},
+    {id:'3',QUADRA:17,SITUACAO:'DISPONÍVEL'},
+    {id:'4',QUADRA:2,SITUACAO:'CASAS POPULARES'},
+    {id:'5',QUADRA:3,SITUACAO:'ÁREA VERDE'}
+  ], history:[] };
+  const result = model.summarize(data,{block:'',start:'2026-01',end:'2026-01'});
+  assert.deepEqual(result.objects.map(object => object.id), ['1','2']);
+  assert.equal(result.available, 1);
+  assert.equal(result.commercialized, 1);
+  assert.equal(model.isListedObject(data.objects[2]), false);
+});
 test('combina histórico mensal importado com eventos posteriores sem duplicar o corte', () => {
   const data = { options:{VENDIDO:'V','DISPONÍVEL':'D'},objects:[],monthlyBaselineMeta:{updatedDate:'10/09/2026',eventsIncludedThroughRevision:13},monthlyBaseline:[
     {month:'2026-08',sales:3,cancellations:5},

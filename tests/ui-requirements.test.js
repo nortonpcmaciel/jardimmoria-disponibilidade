@@ -16,16 +16,23 @@ test('Dados apresenta as colunas solicitadas, omite tipos e inclui o rodapé', (
   assert.match(html, /<th>Código<\/th><th>Quadra<\/th><th>Lote<\/th><th>Área \(m²\)<\/th><th>Logradouro<\/th>/);
   assert.doesNotMatch(html, /<th>Objeto<\/th>/);
   assert.match(script, /CASAS POPULARES/); assert.match(script, /ÁREA VERDE/);
-  assert.match(html, /Inteligência comercial • dados do quadro de disponibilidade/);
+  assert.match(script, /Number\(item\.QUADRA\) !== 17/);
+  assert.match(html, /Residencial Jardim Moriá/);
+  assert.match(html, /Inteligência Comercial • dados de disponibilidade/);
 });
 
 test('Quadro e Dashboard incluem títulos, tabela, rodapés e intervalos solicitados', () => {
   const map = read('index.html'), dashboard = read('dashboard.html');
   assert.match(map, /Quadro de Disponibilidade/);
   assert.match(map, /id="lotes-disponiveis"/);
+  assert.match(map, /<th>Quadra<\/th><th>Lote<\/th><th>Área \(m²\)<\/th><th>Logradouro<\/th>/);
+  assert.doesNotMatch(map, /<th>Código<\/th>/);
   assert.match(map, /font:400 13px/);
-  assert.match(map, /Inteligência comercial • dados do quadro de disponibilidade/);
+  assert.match(map, /Residencial Jardim Moriá/);
+  assert.match(map, /Inteligência Comercial • dados de disponibilidade/);
   assert.match(dashboard, /Vendas & Disponibilidade/);
+  assert.match(dashboard, /Residencial Jardim Moriá/);
+  assert.match(dashboard, /Inteligência Comercial • dados de disponibilidade/);
   assert.match(dashboard, /<label>Intervalos<select id="interval">/);
   for (const label of ['Últimos 12 meses', 'Ano Atual', 'Ano Anterior']) assert.match(dashboard, new RegExp(label));
 });

@@ -109,7 +109,7 @@
       data = { ...next, monthlyBaseline: monthly.months, monthlyBaselineMeta: monthly };
       const selected = $('block').value;
       $('block').replaceChildren(new Option('Todas as quadras',''));
-      [...new Set(data.objects.map(o => String(o.QUADRA)))].sort((a,b) => a.localeCompare(b,'pt-BR',{numeric:true})).forEach(q => $('block').add(new Option('Quadra ' + q,q)));
+      [...new Set(data.objects.filter(model.isListedObject).map(o => String(o.QUADRA)))].sort((a,b) => a.localeCompare(b,'pt-BR',{numeric:true})).forEach(q => $('block').add(new Option('Quadra ' + q,q)));
       if ([...$('block').options].some(o => o.value === selected)) $('block').value = selected;
       render();
     } catch (error) { $('message').textContent = error.message + (data ? ' Exibindo a última leitura; os dados podem estar desatualizados.' : ' Clique em Atualizar dados para tentar novamente.'); $('message').className = 'error'; }

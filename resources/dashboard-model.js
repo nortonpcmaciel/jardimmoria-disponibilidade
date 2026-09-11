@@ -1,6 +1,8 @@
 (function (root) {
   'use strict';
   const sold = s => s === 'VENDIDO' || s === 'QUITADO';
+  const omitted = new Set(['CASAS POPULARES', 'ÁREA VERDE']);
+  const isListedObject = object => Number(object.QUADRA) !== 17 && !omitted.has(object.SITUACAO);
   function month(at) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit' }).formatToParts(new Date(at));
     return parts.find(p => p.type === 'year').value + '-' + parts.find(p => p.type === 'month').value;
@@ -46,7 +48,7 @@
     });
   }
   function summarize(data, filters) {
-    const objects = data.objects.filter(o => !filters.block || String(o.QUADRA) === filters.block);
+    const objects = data.objects.filter(o => isListedObject(o) && (!filters.block || String(o.QUADRA) === filters.block));
     const counts = Object.fromEntries(Object.keys(data.options).map(s => [s, 0]));
     objects.forEach(o => { counts[o.SITUACAO] = (counts[o.SITUACAO] || 0) + 1; });
     const history = data.history || [];
@@ -77,7 +79,7 @@
       commercialized: objects.filter(o => sold(o.SITUACAO)).length,
       available: counts['DISPONÍVEL'] || 0 };
   }
-  const api = { month, type, months, periodStart, intervalRange, summarize, compare };
+  const api = { month, type, months, periodStart, intervalRange, summarize, compare, isListedObject };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.MoriaDashboard = api;
 }(typeof window !== 'undefined' ? window : globalThis));

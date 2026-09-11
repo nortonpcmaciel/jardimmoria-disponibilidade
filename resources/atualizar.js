@@ -4,13 +4,14 @@
   let data, busy = false, lotes = {};
   const drafts = new Map();
   const omitted = new Set(['CASAS POPULARES', 'ÁREA VERDE']);
+  const isListed = item => Number(item.QUADRA) !== 17 && !omitted.has(item.SITUACAO);
   const area = value => value == null ? '—' : value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   function message(text, error) { $('mensagem').textContent = text; $('mensagem').className = error ? 'error' : ''; }
   function addOption(select, value) { const option = document.createElement('option'); option.value = value; option.textContent = value; select.appendChild(option); }
   function render() {
     if (!data) return;
     const query = $('busca').value.trim().toLocaleLowerCase('pt-BR');
-    const eligible = data.objects.filter(o => !omitted.has(o.SITUACAO));
+    const eligible = data.objects.filter(isListed);
     const items = eligible.filter(o => (!$('quadra').value || String(o.QUADRA) === $('quadra').value) &&
       (!$('situacao').value || o.SITUACAO === $('situacao').value) &&
       (!query || [o.QDLT, o.QUADRA, o.LOTE, lotes[o.QDLT]?.logradouro].some(v => String(v || '').toLocaleLowerCase('pt-BR').includes(query))));
@@ -59,7 +60,7 @@
       if (!detailsResponse.ok) throw new Error('Não foi possível carregar as áreas e os logradouros.');
       data = next; lotes = await detailsResponse.json();
       if ($('quadra').options.length === 1) {
-        [...new Set(data.objects.map(o => o.QUADRA))].sort((a,b) => a-b).forEach(q => addOption($('quadra'), String(q)));
+        [...new Set(data.objects.filter(isListed).map(o => o.QUADRA))].sort((a,b) => a-b).forEach(q => addOption($('quadra'), String(q)));
         Object.keys(data.options).filter(s => !omitted.has(s)).sort().forEach(s => addOption($('situacao'), s));
       }
       render(); message('Dados carregados. Cada linha corresponde a um lote comercializável.');

@@ -14,12 +14,12 @@
     body.replaceChildren();
     available.forEach(item => {
       const details = catalog[item.QDLT] || {}, row = document.createElement('tr');
-      [item.QDLT, item.QUADRA, item.LOTE, area(details.area), details.logradouro || '—'].forEach(value => cell(row, value));
+      [item.QUADRA, item.LOTE, area(details.area), details.logradouro || '—'].forEach(value => cell(row, value));
       body.appendChild(row);
     });
     if (!available.length) {
       const row = document.createElement('tr'), empty = document.createElement('td');
-      empty.colSpan = 5; empty.className = 'empty'; empty.textContent = 'Nenhum lote disponível no momento.';
+      empty.colSpan = 4; empty.className = 'empty'; empty.textContent = 'Nenhum lote disponível no momento.';
       row.appendChild(empty); body.appendChild(row);
     }
     summary.textContent = available.length.toLocaleString('pt-BR') + ' lotes • Atualizado em ' + data.updatedDate;
