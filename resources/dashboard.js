@@ -42,7 +42,7 @@
     }
     $('content').hidden = false;
     $('message').className = '';
-    $('message').textContent = 'Dados publicados • Atualizado em ' + data.updatedDate + ' • Revisão ' + data.revision;
+    $('message').textContent = 'Atualizado em ' + data.updatedDate + ' • Revisão ' + data.revision;
     result = model.summarize(data, { block: $('block').value, start: $('start').value, end: $('end').value });
     $('total').textContent = number(result.objects.length); $('available').textContent = number(result.available);
     $('sold').textContent = number(result.commercialized);
