@@ -5,6 +5,7 @@
   <title>Dashboard de vendas — Jardim Moriá</title>
   <link rel="stylesheet" href="resources/dashboard.css">
   <link rel="stylesheet" href="resources/dashboard-nav.css">
+  <link rel="stylesheet" href="resources/dashboard-cards.css">
 </head>
 <body>
   <header class="topbar">
@@ -15,11 +16,12 @@
     </details>
   </header>
   <main>
-    <div class="heading"><div><p class="eyebrow">VISÃO COMERCIAL</p><h1>Vendas & Disponibilidade</h1><p>Acompanhe o estoque atual e a evolução das movimentações.</p></div><button id="refresh" type="button">↻ Atualizar dados</button></div>
+    <div class="heading"><div><p class="eyebrow">VISÃO COMERCIAL</p><h1>Vendas & Disponibilidade</h1><p>Estoque atual e a evolução das movimentações.</p></div><button id="refresh" type="button">↻ Atualizar dados</button></div>
     <p id="message" role="status" aria-live="polite">Carregando dados publicados…</p>
-    <section class="filters" aria-label="Filtros do dashboard"><label>Quadra<select id="block"><option value="">Todas as quadras</option></select></label><label>Mês inicial<input id="start" type="month" min="2000-01" max="2099-12"></label><label>Mês final<input id="end" type="month" min="2000-01" max="2099-12"></label><label>Intervalos<select id="interval"><option value="last12">Últimos 12 meses</option><option value="currentYear">Ano Atual</option><option value="previousYear">Ano Anterior</option></select></label><span>Período aplicado ao histórico.<br>Estoque sempre na situação atual.</span></section>
     <div id="content" hidden>
-      <section class="cards" aria-label="Indicadores atuais"><article class="card"><p>Objetos cadastrados</p><strong id="total">—</strong><small>Na quadra selecionada</small></article><article class="card available"><p>Disponíveis</p><strong id="available">—</strong><small>Prontos para comercialização</small></article><article class="card sold"><p>Comercializados</p><strong id="sold">—</strong><small>Vendidos + quitados</small></article><article class="card"><p>Comercialização</p><strong id="rate">—</strong><small>Sobre disponíveis + comercializados</small></article></section>
+      <section class="cards" aria-label="Indicadores atuais"><article class="card"><p>Cadastros</p><strong id="total">—</strong><small>Na quadra selecionada</small></article><article class="card"><p>Carteira atual</p><strong id="portfolio">—</strong><small>Disponíveis + comercializados</small></article><article class="card sold"><p>Comercializados</p><strong id="sold">—</strong><small>Vendidos + quitados</small></article><article class="card"><p>Comercialização</p><strong id="rate">—</strong><small>Sobre a carteira atual</small></article></section>
+      <section class="cards monthly-cards" aria-label="Indicadores do mês atual"><article class="card available"><p>Disponíveis</p><strong id="available">—</strong><small>Estoque disponível</small></article><article class="card sales"><p>Vendas</p><strong id="current-sales">—</strong><small>Mês atual</small></article><article class="card cancellations"><p>Cancelamentos</p><strong id="current-cancellations">—</strong><small>Mês atual</small></article><article class="card growth" id="growth-card"><p>Incremento mensal</p><strong id="current-growth">—</strong><small id="growth-period">Vendas em relação ao mês anterior</small></article></section>
+      <section class="filters" aria-label="Filtros do dashboard"><label>Quadra<select id="block"><option value="">Todas as quadras</option></select></label><label>Mês inicial<input id="start" type="month" min="2000-01" max="2099-12"></label><label>Mês final<input id="end" type="month" min="2000-01" max="2099-12"></label><label>Intervalos<select id="interval"><option value="last12">Últimos 12 meses</option><option value="currentYear">Ano Atual</option><option value="previousYear">Ano Anterior</option></select></label><span>Período aplicado ao histórico.<br>Estoque sempre na situação atual.</span></section>
       <div class="section-title"><h2>Movimentações no período</h2><span id="period"></span></div>
       <p id="coverage" class="notice"></p>
       <section class="flow" aria-label="Indicadores do período"><article><span>Vendas registradas</span><strong id="sales">—</strong></article><article><span>Cancelamentos</span><strong id="cancellations">—</strong></article><article><span>Saldo de vendas</span><strong id="net">—</strong><small>Vendas − cancelamentos</small></article></section>

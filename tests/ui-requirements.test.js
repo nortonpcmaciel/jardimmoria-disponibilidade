@@ -31,6 +31,10 @@ test('Quadro e Dashboard incluem títulos, tabela, rodapés e intervalos solicit
   assert.match(map, /Residencial Jardim Moriá/);
   assert.match(map, /Inteligência Comercial • dados de disponibilidade/);
   assert.match(dashboard, /Vendas & Disponibilidade/);
+  assert.match(dashboard, /Estoque atual e a evolução das movimentações\./);
+  assert.doesNotMatch(dashboard, /Acompanhe o estoque atual/);
+  for (const label of ['Cadastros', 'Carteira atual', 'Disponíveis', 'Vendas', 'Cancelamentos', 'Incremento mensal']) assert.match(dashboard, new RegExp(label));
+  assert.ok(dashboard.indexOf('class="filters"') < dashboard.indexOf('<h2>Movimentações no período</h2>'));
   assert.match(dashboard, /Residencial Jardim Moriá/);
   assert.match(dashboard, /Inteligência Comercial • dados de disponibilidade/);
   assert.match(dashboard, /<label>Intervalos<select id="interval">/);

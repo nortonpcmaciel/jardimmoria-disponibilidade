@@ -29,6 +29,12 @@ test('período padrão contém exatamente os 12 meses até o mês atual', () => 
   assert.equal(model.months(start, '2026-09').length, 12);
   assert.equal(model.periodStart('2026-01', 12), '2025-02');
 });
+test('incremento mensal calcula variações positivas, negativas e base zero', () => {
+  assert.equal(model.percentChange(6,3),100);
+  assert.equal(model.percentChange(2,4),-50);
+  assert.equal(model.percentChange(0,0),0);
+  assert.equal(model.percentChange(3,0),null);
+});
 test('intervalos rápidos cobrem últimos 12 meses, ano atual e ano anterior', () => {
   assert.deepEqual(model.intervalRange('last12', '2026-09'), {start:'2025-10',end:'2026-09'});
   assert.deepEqual(model.intervalRange('currentYear', '2026-09'), {start:'2026-01',end:'2026-09'});

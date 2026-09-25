@@ -47,7 +47,18 @@
     $('total').textContent = number(result.objects.length); $('available').textContent = number(result.available);
     $('sold').textContent = number(result.commercialized);
     const commercial = result.available + result.commercialized;
+    $('portfolio').textContent = number(commercial);
     $('rate').textContent = commercial ? (result.commercialized / commercial * 100).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + '%' : '—';
+    const currentMonth = model.month(new Date()), previousMonth = model.periodStart(currentMonth, 2);
+    const monthly = model.summarize(data, { block: $('block').value, start: previousMonth, end: currentMonth });
+    const currentRow = monthly.rows.find(row => row.month === currentMonth), previousRow = monthly.rows.find(row => row.month === previousMonth);
+    $('current-sales').textContent = currentRow?.covered ? number(currentRow.sales) : '—';
+    $('current-cancellations').textContent = currentRow?.covered ? number(currentRow.cancellations) : '—';
+    const growth = currentRow?.covered && previousRow?.covered ? model.percentChange(currentRow.sales, previousRow.sales) : null;
+    $('current-growth').textContent = growth === null ? '—' : (growth > 0 ? '+' : '') + growth.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}) + '%';
+    $('growth-period').textContent = label(previousMonth) + ' → ' + label(currentMonth);
+    $('growth-card').classList.toggle('positive', growth !== null && growth > 0);
+    $('growth-card').classList.toggle('negative', growth !== null && growth < 0);
     $('period').textContent = label($('start').value) + ' a ' + label($('end').value);
     const covered = result.rows.some(r => r.covered);
     $('sales').textContent = covered ? number(result.sales) : '—';
