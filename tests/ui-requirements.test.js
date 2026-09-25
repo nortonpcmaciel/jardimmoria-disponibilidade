@@ -22,7 +22,7 @@ test('Dados apresenta as colunas solicitadas, omite tipos e inclui o rodapé', (
 });
 
 test('Quadro e Dashboard incluem títulos, tabela, rodapés e intervalos solicitados', () => {
-  const map = read('index.html'), dashboard = read('dashboard.html');
+  const map = read('index.html'), dashboard = read('dashboard.html'), dashboardScript = read('resources/dashboard.js');
   assert.match(map, /Quadro de Disponibilidade/);
   assert.match(map, /id="lotes-disponiveis"/);
   assert.match(map, /<th>Quadra<\/th><th>Lote<\/th><th>Área \(m²\)<\/th><th>Logradouro<\/th>/);
@@ -34,7 +34,12 @@ test('Quadro e Dashboard incluem títulos, tabela, rodapés e intervalos solicit
   assert.match(dashboard, /Estoque atual e a evolução das movimentações\./);
   assert.doesNotMatch(dashboard, /Acompanhe o estoque atual/);
   for (const label of ['Cadastros', 'Carteira atual', 'Disponíveis', 'Vendas', 'Cancelamentos', 'Incremento mensal']) assert.match(dashboard, new RegExp(label));
-  assert.ok(dashboard.indexOf('class="filters"') < dashboard.indexOf('<h2>Movimentações no período</h2>'));
+  assert.ok(dashboard.indexOf('<h2>Movimentações no período</h2>') < dashboard.indexOf('class="filters"'));
+  assert.ok(dashboard.indexOf('class="filters"') < dashboard.indexOf('Vendas registradas'));
+  assert.ok(dashboard.indexOf('<p>Cancelamentos</p>') < dashboard.indexOf('<p>Disponíveis</p>'));
+  assert.ok(dashboard.indexOf('<p>Disponíveis</p>') < dashboard.indexOf('<p>Incremento mensal</p>'));
+  assert.match(dashboardScript, /maximumFractionDigits:\s*0/);
+  assert.doesNotMatch(dashboardScript, /current-growth[\s\S]{0,300}minimumFractionDigits/);
   assert.match(dashboard, /Residencial Jardim Moriá/);
   assert.match(dashboard, /Inteligência Comercial • dados de disponibilidade/);
   assert.match(dashboard, /<label>Intervalos<select id="interval">/);

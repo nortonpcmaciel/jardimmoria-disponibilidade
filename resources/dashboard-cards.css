@@ -2,35 +2,10 @@
   margin-top: 18px;
 }
 
-#content > .filters {
-  margin-top: 24px;
-}
-
-.card.sales {
-  border-top: 3px solid #9b364b;
-}
-
-.card.sales strong {
+.card.commercial-rate strong {
   color: #912c41;
 }
 
-.card.cancellations {
-  border-top: 3px solid #ba4e64;
-}
-
-.card.cancellations strong,
-.card.growth.negative strong {
-  color: #a83950;
-}
-
-.card.growth.positive strong {
+.card.growth strong {
   color: #16816b;
-}
-
-.card.growth.positive {
-  border-top: 3px solid #269982;
-}
-
-.card.growth.negative {
-  border-top: 3px solid #ba4e64;
 }
