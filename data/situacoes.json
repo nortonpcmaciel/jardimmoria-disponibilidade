@@ -1,7 +1,7 @@
 {
   "dataset": "65ec05ebde6a052c85b76322b1b577b2ee9558474d0edc17d8d6a2dc8e6395e0",
-  "revision": 43,
-  "updatedDate": "14/10/2026",
+  "revision": 44,
+  "updatedDate": "15/10/2026",
   "options": {
     "VENDIDO": "V",
     "BLOQUEADO": "B",
@@ -1903,10 +1903,10 @@
       "QUADRA": 7,
       "LOTE": 45,
       "QDLT": "07-45",
-      "STATUS": "D",
-      "SITUACAO": "DISPONÍVEL",
+      "STATUS": "V",
+      "SITUACAO": "VENDIDO",
       "id": "236",
-      "updatedAt": "2026-10-13T14:23:27.822Z"
+      "updatedAt": "2026-10-15T20:08:24.239Z"
     },
     {
       "QUADRA": 7,
@@ -7116,6 +7116,16 @@
       "from": "DISPONÍVEL",
       "to": "VENDIDO",
       "at": "2026-10-14T19:01:56.583Z"
+    },
+    {
+      "revision": 44,
+      "objectId": "236",
+      "QDLT": "07-45",
+      "QUADRA": 7,
+      "LOTE": 45,
+      "from": "DISPONÍVEL",
+      "to": "VENDIDO",
+      "at": "2026-10-15T20:08:24.239Z"
     }
   ]
 }
