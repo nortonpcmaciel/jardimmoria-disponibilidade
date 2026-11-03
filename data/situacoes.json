@@ -1,6 +1,6 @@
 {
   "dataset": "65ec05ebde6a052c85b76322b1b577b2ee9558474d0edc17d8d6a2dc8e6395e0",
-  "revision": 49,
+  "revision": 50,
   "updatedDate": "03/11/2026",
   "options": {
     "VENDIDO": "V",
@@ -2037,9 +2037,10 @@
       "QUADRA": 7,
       "LOTE": 29,
       "QDLT": "07-29",
-      "STATUS": "D",
-      "SITUACAO": "DISPONÍVEL",
-      "id": "252"
+      "STATUS": "B",
+      "SITUACAO": "BLOQUEADO",
+      "id": "252",
+      "updatedAt": "2026-11-03T13:31:25.044Z"
     },
     {
       "QUADRA": 7,
@@ -7180,6 +7181,16 @@
       "from": "DISPONÍVEL",
       "to": "BLOQUEADO",
       "at": "2026-11-03T13:31:11.597Z"
+    },
+    {
+      "revision": 50,
+      "objectId": "252",
+      "QDLT": "07-29",
+      "QUADRA": 7,
+      "LOTE": 29,
+      "from": "DISPONÍVEL",
+      "to": "BLOQUEADO",
+      "at": "2026-11-03T13:31:25.044Z"
     }
   ]
 }
